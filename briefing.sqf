@@ -28,6 +28,7 @@ Added:-New Seed shop in NZ.<br/>
 Added:-New Air vechiles in air factory (Little Bird, glider, and prop plane x2 coulors.<br/>
 Added:-Mh60s to Cop Air.<br/>
 Added:-Fishing Boat at boat shops.<br/>
+Added:-Blue Security Dye explosion when robbing bank.<br/>
 Changed:-U can now use speed upgrades 1,2,3 on boats be carefull.<br/>
 Changed:-Prices of some items, vechiles.<br/>
 Changed:-U now have to cross border for certain things.<br/>
