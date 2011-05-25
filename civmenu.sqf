@@ -166,6 +166,11 @@ if(stolencash > 0)then
 	kontostand = kontostand - _BNKrmv;
 
 	(format ["server globalchat ""%1 was a bank robber and has been charged $%2!"";", name player, (_INVrmv + _BNKrmv)]) call broadcast;	
+	
+	//remove the blue dye/s from the bank robber a minute after he is jailed (in case he wants to see the evidence for himself)
+	sleep 60;
+	CountBlueDyes = "BlueDye" call INV_GetItemAmount;
+	['BlueDye', (CountBlueDyes * -1)] call INV_addinventoryitem;
 
 	};
 

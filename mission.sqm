@@ -92,7 +92,7 @@ class Mission
 	randomSeed=10513215;
 	class Intel
 	{
-		briefingName="Down Under Alpha V 1.09d";
+		briefingName="Down Under Alpha V 1.09e";
 		briefingDescription="By Jan Templar, Whippy, Juddy, Du$Toff";
 		resistanceWest=0;
 		startWeather=0.59067023;

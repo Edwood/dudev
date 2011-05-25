@@ -238,6 +238,7 @@ INV_AlleFahrzeugeArray = [
 INV_AlleItemsArray = [
 
 ["geld",["Item", "geld"], ["Money", "Money"], [1, 1],[0, ""],[true,true,true, false, ""],localize "STRS_item_geld", localize "STRS_item_geld_info",[]],
+["BlueDye",["Item", "carobjects"],["BlueDye", "Blue Dye"],[0, 0], [0, ""], [false,false, false,false,""],localize "STRS_inv_item_BlueDye",localize "STRS_inv_item_BlueDye_info", [] ],
 ["medikit",["Item", "service"],["medikit", "Medikit"],[2500, 1500], [2, "medic", "probator"], [true, true, true,false,"medkit.sqf"],localize "STRS_inv_item_medikit",localize "STRS_inv_item_medikit_info", [["plastik", 1],["stahl", 2]] ], 
 ["reparaturkit",["Item", "service"],["reparaturkit", "Large Repair Kit"],[1250, 950], [4, "engineer", ""],[true,true,true, false, "largerepair.sqf"],localize "STRS_inv_item_repairkit", localize "STRS_inv_item_repairkit_info",[["plastik", 1],["stahl", 2]] ],
 //["towrope",["Item", "service"],["towrope", "Tow Rope"],[1525, 1020], [4, "engineer", "patrol_training"],[true,true,true, false, "noscript.sqf"],localize "STRS_inv_item_towkit", localize "STRS_inv_item_towkit_info",[["plastik", 1],["stahl", 2]] ],

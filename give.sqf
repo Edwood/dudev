@@ -3,6 +3,9 @@ _item        = _this select 1;
 _menge       = _this select 2;
 _itemanzeige = (_item call INV_getitemName);
 
+//prevent player from giving blue security dye to someone else
+if (_item == "BlueDye") exitwith {player groupChat localize "STRS_BlueDye_drop_text";};
+
 if(primaryweapon player == "" and secondaryweapon player == "")then{player playmove "AmovPercMstpSnonWnonDnon_AinvPknlMstpSnonWnonDnon"}else{player playmove "AinvPknlMstpSlayWrflDnon"};
 
 if (_art == "uebergabe") then 

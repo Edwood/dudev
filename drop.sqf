@@ -1,6 +1,9 @@
 _item   = _this select 0; 
 _amount = _this select 1;
 
+//prevent player from dropping blue security dye
+if (_item == "BlueDye") exitwith {player groupChat localize "STRS_BlueDye_drop_text";};
+
 if ((!INV_CanUseInventory) or (!INV_CanDropItem)) exitWith {player groupChat localize "STRS_inv_inventar_cannotdrop";};
 
 if(!isnull (nearestobjects[getpos player,["EvMoney","Suitcase"], 1] select 0))exitwith{player groupchat "You cannot drop items on top of each other. move and try again."};
