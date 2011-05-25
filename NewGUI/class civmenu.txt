@@ -1,0 +1,147 @@
+//Created by Jan Templar for Down Under Life
+//Last Modified 8/05/2011
+
+class DLG_BACK1: RscBackground
+{
+	idc = 1000;
+	x = 0.320964 * safezoneW + safezoneX;
+	y = 0.568723 * safezoneH + safezoneY;
+	w = 0.372396 * safezoneW;
+	h = 0.17868 * safezoneH;
+};
+class background: RscBgRahmen
+{
+	idc = 1001;
+	text = "Civ-menu";
+	x = 0.320964 * safezoneW + safezoneX;
+	y = 0.554979 * safezoneH + safezoneY;
+	w = 0.379557 * safezoneW;
+	h = 0.192425 * safezoneH;
+};
+class button_disarm: RscButton
+{
+	idc = 1;
+	action = "[2] execVM "civmenuinit.sqf"; closedialog 0";
+
+	text = "Disarm";
+	x = 0.44987 * safezoneW + safezoneX;
+	y = 0.568723 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class button_drugs: RscButton
+{
+	idc = 2;
+	action = "[1] execVM "civmenuinit.sqf"; closedialog 0";
+
+	text = "Drug Search";
+	x = 0.320964 * safezoneW + safezoneX;
+	y = 0.664936 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class arrest_text: RscText
+{
+	idc = 4;
+	style = 2;
+
+	text = "Arrest";
+	x = 0.585938 * safezoneW + safezoneX;
+	y = 0.609957 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class arrest_slider: RscSliderH
+{
+	idc = 3;
+
+	x = 0.593099 * safezoneW + safezoneX;
+	y = 0.609957 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0164936 * safezoneH;
+};
+class button_arrest: RscButton
+{
+	idc = 5;
+	action = "[3, sliderPosition 3] execVM "civmenuinit.sqf"; closedialog 0";
+
+	text = "Arrest";
+	x = 0.585938 * safezoneW + safezoneX;
+	y = 0.568723 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class button_restrain: RscButton
+{
+	idc = 6;
+	action = "[] execVM "Restrain.sqf"; closedialog 0";
+
+	text = "Restrain/Release";
+	x = 0.585938 * safezoneW + safezoneX;
+	y = 0.651191 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class ticket_eingabe: RscEdit
+{
+	idc = 11;
+
+	text = "1000";
+	x = 0.44987 * safezoneW + safezoneX;
+	y = 0.651191 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0164936 * safezoneH;
+};
+class button_ticket: RscButton
+{
+	action = "[4, ctrlText 11] execVM "civmenuinit.sqf"; closedialog 0";
+
+	idc = 1604;
+	text = "Ticket";
+	x = 0.44987 * safezoneW + safezoneX;
+	y = 0.609957 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class cancel: RscButton
+{
+	action = "closedialog 0";
+
+	idc = 1605;
+	text = "Cancel";
+	x = 0.320964 * safezoneW + safezoneX;
+	y = 0.719914 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class button_heal: RscButton
+{
+	idc = 13;
+	action = "[5] execVM "civmenuinit.sqf"; closedialog 0";
+
+	text = "Heal this Civ";
+	x = 0.320964 * safezoneW + safezoneX;
+	y = 0.609957 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class button_inventarsearch: RscButton
+{
+	idc = 14;
+	action = "[6] execVM "civmenuinit.sqf"; closedialog 0";
+
+	text = "Check Inventory";
+	x = 0.320964 * safezoneW + safezoneX;
+	y = 0.568723 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class dummybutton: RscDummy
+{
+	idc = 1006;
+
+	x = -0.1875 * safezoneW + safezoneX;
+	y = -0.324678 * safezoneH + safezoneY;
+	w = 0.00458333 * safezoneW;
+	h = 0.00549786 * safezoneH;
+};

@@ -1,0 +1,19 @@
+; *****************************************************
+; ** Operation Flashpoint Script File
+; *****************************************************
+
+;OFPEC Ed Depot
+;activate radio script
+
+;get passed parameters
+	_vehicle = _this select 0
+	_position = _this select 1
+	_unit = _this select 2
+
+;only activate the action if the unit is in the driving position
+	? not (_position == "driver") : exit
+
+;add the radio action to the vehicle
+	radio = _vehicle addaction ["Switch on radio", "radio_on.sqs"]
+
+exit

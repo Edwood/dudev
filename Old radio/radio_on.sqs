@@ -1,0 +1,41 @@
+; *****************************************************
+; ** Operation Flashpoint Script File
+; *****************************************************
+
+;OFPEC Ed Depot, modified from Ofpec's resources & THobson's "PlayRoadMusic.sqs" by Lee Hunt, September 2007
+;switch on radio
+
+;get passed parameters
+	_vehicle = _this select 0
+	_unit = _this select 1
+	_actionindex = _this select 2
+
+;list of tracks
+
+_tracks = ["ACDC_Anything_Goes","ACDC_Big_Balls","ACDC_Big_Jack","ACDC_Black_Ice","ACDC_Decibel","ACDC_Dirty_Deeds_Done_Dirt_Cheap","ACDC_Down_Payment_Blues","ACDC_Gimme_A_Bullet","ACDC_Gone_Shooting","ACDC_Hell_Aint_a_Bad_Place_To_Be","ACDC_Hells_Bells","ACDC_Jailbreak","ACDC_Kicked_In_The_Teeth","ACDC_Money_Made","ACDC_Problem_Child","ACDC_Riff_Raff","ACDC_Rock_N_Roll_Damnation","ACDC_Rock_N_Roll_Dream","ACDC_Rock_N_Roll_Train","ACDC_Rocking_All_The_Way","ACDC_She_Likes_Rock_N_Roll","ACDC_Shoot_To_Thrill","ACDC_Sin_city","ACDC_Skies_On_Fire","ACDC_Smash_N_Grab","ACDC_Spoilin_For_A_Fight","ACDC_Squealer","ACDC_Stormy_May_Day","ACDC_Up_To_My_Neck_In_You","ACDC_War_Machine","ACDC_Wheels","ACDC_Back_In_Black","ACDC_Dog_Eat_Dog","ACDC_Whats_Next_To_The_Moon","ACDC_You_Shook_Me_All_Night_Long","Nickelback_Animals","Nickelback_Far_Away","Nickelback_Follow_You_Home","Nickelback_For_All_the_Right_Reasons","Nickelback_If_Everyone_Cared","Nickelback_Next_Contestant","Nickelback_Photograph","Nickelback_Rockstar","Nickelback_Savin_Me","Nickelback_Side_of_a_Bullet","Nickelback_Someone_That_Your_With","Afroman_Because_I_Got_High","Bannana_Phone","Cant_Touch_This","Ironweed_Get_a_little_dirty","GNR_Paradise_City","GreenDay_I_Fought_the_Law"]
+
+; Pick a random song from the array of _tracks above
+_rand = random (count _tracks)
+; make sure the randomly select song is # 4 for example and not 4.75
+_num = _rand - (_rand mod 1) 
+~.5
+_song = _tracks select _num
+
+
+
+playMusic _song
+
+
+
+if debug then {hint format ["Pita garrison:\nEast: %1",{alive _x} count pita_loons]} 
+hint format ["Playing song: %1",_song]
+
+
+
+;remove the 'switch on radio' action
+	_vehicle removeaction _actionindex
+
+;add the 'switch off radio' action
+	radio = _vehicle addaction ["Switch off radio", "radio_off.sqs"]
+
+exit

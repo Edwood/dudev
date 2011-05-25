@@ -1,0 +1,31 @@
+1.06:
+Changelog:
+Fixed Restrain bug
+Fixed various exploits
+Fixed Stun and Drive
+Fixed _Private utilisation and de-sync
+Fixed Death messages
+Fixed Helicopters
+Fixed trunk
+Changed starting money
+
+
+
+1.03:
+Chanelog:
+fixed: various bugfixes.
+
+
+
+1.02:
+changelog:
+fixed: money duping exploit.
+fixed: headbugfix exploit.
+fixed: item processing bug.
+fixed: some bank robbing bugs.
+
+
+1.01:
+changelog:
+fixed: various desync issues.
+fixed: factory exploit.

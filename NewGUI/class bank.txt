@@ -1,0 +1,168 @@
+class DLG_BACK1: RscBackground
+{
+	idc = 1000;
+	x = 0.277995 * safezoneW + safezoneX;
+	y = 0.29383 * safezoneH + safezoneY;
+	w = 0.401042 * safezoneW;
+	h = 0.357361 * safezoneH;
+};
+class background: RscBgRahmen
+{
+	idc = 1001;
+	text = "Bank";
+	x = 0.10612 * safezoneW + safezoneX;
+	y = 0.348809 * safezoneH + safezoneY;
+	w = 0.169583 * safezoneW;
+	h = 0.401343 * safezoneH;
+};
+class text1: RscText
+{
+	style = 2;
+
+	idc = 1002;
+	text = "Deposit/Transfer";
+	x = 0.277995 * safezoneW + safezoneX;
+	y = 0.29383 * safezoneH + safezoneY;
+	w = 0.160417 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class spielerliste: RscCombo
+{
+	idc = 1;
+
+	x = 0.349609 * safezoneW + safezoneX;
+	y = 0.348809 * safezoneH + safezoneY;
+	w = 0.114583 * safezoneW;
+	h = 0.0274893 * safezoneH;
+};
+class text2: RscText
+{
+	style = 1;
+
+	idc = 1003;
+	text = "Select player:";
+	x = 0.277995 * safezoneW + safezoneX;
+	y = 0.348809 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class transfer_eingabe: RscEdit
+{
+	idc = 2;
+
+	text = "0";
+	x = 0.285156 * safezoneW + safezoneX;
+	y = 0.390043 * safezoneH + safezoneY;
+	w = 0.160417 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class text4: RscText
+{
+	idc = 4;
+	style = 1;
+
+	text = "Incl. Taxes:";
+	x = 0.44987 * safezoneW + safezoneX;
+	y = 0.390043 * safezoneH + safezoneY;
+	w = 0.055 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class money_steuern: RscText
+{
+	idc = 5;
+
+	text = "$";
+	x = 0.54125 * safezoneW + safezoneX;
+	y = 0.401039 * safezoneH + safezoneY;
+	w = 0.0366667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class submit: RscButton
+{
+	idc = 10;
+
+	text = "Submit";
+	x = 0.285156 * safezoneW + safezoneX;
+	y = 0.431277 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class text5: RscText
+{
+	style = 2;
+
+	idc = 1006;
+	text = "Withdraw";
+	x = 0.55013 * safezoneW + safezoneX;
+	y = 0.29383 * safezoneH + safezoneY;
+	w = 0.160417 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class withdraw_eingabe: RscEdit
+{
+	idc = 6;
+
+	text = "0";
+	x = 0.514323 * safezoneW + safezoneX;
+	y = 0.348809 * safezoneH + safezoneY;
+	w = 0.160417 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class withdraw_submit: RscButton
+{
+	idc = 11;
+
+	text = "Submit";
+	x = 0.514323 * safezoneW + safezoneX;
+	y = 0.431277 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class cancel: RscButton
+{
+	action = "closedialog 0";
+
+	idc = 1602;
+	text = "Cancel";
+	x = 0.277995 * safezoneW + safezoneX;
+	y = 0.609957 * safezoneH + safezoneY;
+	w = 0.0916667 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class trennlinie: RscText
+{
+	style = 64;
+
+	idc = 1007;
+	x = 0.285156 * safezoneW + safezoneX;
+	y = 0.513745 * safezoneH + safezoneY;
+	w = 0.160417 * safezoneW;
+	h = 0.00549786 * safezoneH;
+};
+class text_inventarmoney: RscText
+{
+	idc = 101;
+
+	x = 0.285156 * safezoneW + safezoneX;
+	y = 0.527489 * safezoneH + safezoneY;
+	w = 0.169583 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class text_accountmoney: RscText
+{
+	idc = 102;
+
+	x = 0.285156 * safezoneW + safezoneX;
+	y = 0.486255 * safezoneH + safezoneY;
+	w = 0.169583 * safezoneW;
+	h = 0.0219914 * safezoneH;
+};
+class dummybutton: RscDummy
+{
+	idc = 1003;
+
+	x = -0.1875 * safezoneW + safezoneX;
+	y = -0.324678 * safezoneH + safezoneY;
+	w = 0.00458333 * safezoneW;
+	h = 0.00549786 * safezoneH;
+};

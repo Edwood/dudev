@@ -1,0 +1,22 @@
+; *****************************************************
+; ** Operation Flashpoint Script File
+; *****************************************************
+
+;OFPEC Ed Depot
+;switch off radio
+
+;get passed parameters
+	_vehicle = _this select 0
+	_unit = _this select 1
+	_actionindex = _this select 2
+
+;end the music
+	playmusic ["atrack1",9999]
+
+;remove the 'switch off radio' action
+	_vehicle removeaction _actionindex
+
+;add the 'switch on radio' action
+	radio = _vehicle addaction ["Switch on radio", "radio_on.sqs"]
+
+exit
