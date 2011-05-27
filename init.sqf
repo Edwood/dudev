@@ -80,7 +80,7 @@ enableSaving [false, false];
 enableSentences false;
 WEST setFriend [EAST, 1];
 EAST setFriend [WEST, 1];
-version        	= "1.09e";
+version        	= "1.09g";
 compatible     	= 102;
 internDebug    	= false;
 debug          	= false;

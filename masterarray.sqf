@@ -244,11 +244,11 @@ INV_AlleItemsArray = [
 //["towrope",["Item", "service"],["towrope", "Tow Rope"],[1525, 1020], [4, "engineer", "patrol_training"],[true,true,true, false, "noscript.sqf"],localize "STRS_inv_item_towkit", localize "STRS_inv_item_towkit_info",[["plastik", 1],["stahl", 2]] ],
 ["lighter",["Item", "service"],["lighter", "lighter"],[2, 1], [0.5, "", ""],[true,true,true, false, "ignitefuel.sqf"],localize "STRS_inv_item_lighter", localize "STRS_inv_item_lighter_info",[["erdoel", 2]] ],
 ["kleinesreparaturkit", ["Item", "service"],["kleinesreparaturkit", "Repair Kit"],[1050, 750], [2, "", ""],[true,true,true, false, "repair.sqf"],localize "STRS_inv_item_repairkit",localize "STRS_inv_item_repairkit_info",[["plastik", 1]] ],
-["kanister", ["Item", "service"],["kanister", "Refuel Can"], [200, 100], [2, "", "patrol_training"],[true,true,true, false, "refuelveh.sqf"], localize "STRS_inv_item_kanister", localize "STRS_inv_item_kanister_info",[["plastik", 1],["erdoel", 1]] ],
-["Fuelline", ["Item", "service"],["Syphon Fuelkit", "Syphon Fuel-kit"], [50, 20], [1, "", "patrol_training"],[true,true,true, false, "syphon.sqf"], localize "STRS_inv_item_fuelcut", localize "STRS_inv_item_fuelcut_info",[["stahl", 1]] ],
+["kanister", ["Item", "service"],["kanister", "Refuel Can"], [200, 100], [2, "", ""],[true,true,true, false, "refuelveh.sqf"], localize "STRS_inv_item_kanister", localize "STRS_inv_item_kanister_info",[["plastik", 1],["erdoel", 1]] ],
+["Fuelline", ["Item", "service"],["Syphon Fuelkit", "Syphon Fuel-kit"], [50, 20], [1, "", ""],[true,true,true, false, "syphon.sqf"], localize "STRS_inv_item_fuelcut", localize "STRS_inv_item_fuelcut_info",[["stahl", 1]] ],
 ["OilBarrel", ["Item", "service"],["Oil Barrel", "Oil Barrel"], [50000, 40000], [10, "", ""],[true,true,true, false, "refuelveh.sqf"], "Barrel of oil", localize "STRS_inv_item_kanister_info",[["Oil", 50]] ],
 ["schluesselbund",["Item", "carobjects"],["schluesselbund", "Key chain"],[0, 0], [0, ""], [false,false, false,false,"keys.sqf"],localize "STRS_inv_item_schluesselbund",localize "STRS_inv_item_schluesselb_info", [] ],
-["lockpick", ["Item", "carobjects"],["Dietrich", "Lockpick"], [270, 200], [0.5, "", "patrol_training"],[true,true,true, false, "lockpick.sqf"],localize "STRS_item_lockpick",localize "STRS_item_lockpick_info", [["stahl", 1]] ],
+["lockpick", ["Item", "carobjects"],["Dietrich", "Lockpick"], [270, 200], [0.5, "", ""],[true,true,true, false, "lockpick.sqf"],localize "STRS_item_lockpick",localize "STRS_item_lockpick_info", [["stahl", 1]] ],
 
 ////////////////////////////////////////////////////////Piss Heads/////////////////////////////////////////////////////////////////////////////////////////
 
@@ -279,16 +279,16 @@ INV_AlleItemsArray = [
 ///////////////////////////////////////////////////////////Food/////////////////////////////////////////////////////////////////////////////////////////////////
 
 ["boar",["Item", "food"],["boar", "Boar meat"],[1500, 1200], [2, ""], [true, true, true,false,"food.sqf"],"Boar meat","Boar meat", [] ], 
-["chips",["Item", "food"],["chips", "Chip's"],[1000, 800], [0.5, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_chips",localize "STRS_inv_item_nahrung_info", [] ], 
+["chips",["Item", "food"],["chips", "Chip's"],[1000, 900], [0.2, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_chips",localize "STRS_inv_item_nahrung_info", [] ], 
 ["strangemeat",["Item", "food"],["strangemeat", "Weet Bix"],[100, 50], [1, ""], [true, true, true,false,"food.sqf"],"Strange meat","Strange meat", [] ], 
-["fisch",["Item", "food"],["fisch", "Tim Tam's"],[500, 300], [0.5, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_fisch",localize "STRS_inv_item_nahrung_info", [] ],
-["blowfish",["Item", "food"],["blowfish", "Blowfish"],[100, 50], [0.5, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_fisch",localize "STRS_inv_item_nahrung_info", [] ], 
-["mackerel",["Item", "food"],["mackerel", "Mackerel"],[700, 500], [0.5, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_fisch",localize "STRS_inv_item_nahrung_info", [] ], 
-["herring",["Item", "food"],["herring", "Herring"],[400, 300], [0.5, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_fisch",localize "STRS_inv_item_nahrung_info", [] ], 
-["bass",["Item", "food"],["bass", "Deep Sea Bass"],[1000, 800], [1, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_fisch",localize "STRS_inv_item_nahrung_info", [] ], 
+["fisch",["Item", "food"],["fisch", "Tim Tam's"],[500, 300], [0.3, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_fisch",localize "STRS_inv_item_nahrung_info", [] ],
+["blowfish",["Item", "food"],["blowfish", "Blowfish"],[100, 50], [0.2, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_fisch",localize "STRS_inv_item_nahrung_info", [] ], 
+["mackerel",["Item", "food"],["mackerel", "Mackerel"],[700, 500], [0.3, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_fisch",localize "STRS_inv_item_nahrung_info", [] ], 
+["herring",["Item", "food"],["herring", "Herring"],[400, 300], [0.3, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_fisch",localize "STRS_inv_item_nahrung_info", [] ], 
+["bass",["Item", "food"],["bass", "Deep Sea Bass"],[1000, 800], [0.5, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_fisch",localize "STRS_inv_item_nahrung_info", [] ], 
 ["getreide", ["Item", "ressource"], ["getreide", "Wheat"],[200, 100], [0.5, ""],[true,true,true, false, "food.sqf"],localize "STRS_inv_item_getreide", localize "STRS_inv_item_nahrung_info", []],
-["Bread",["Item", "food"],["Bread", "Vegemite Sandwich"],[400, 300], [0.5, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_Bread",localize "STRS_inv_item_nahrung_info", [["getreide", 2]] ],
-["CheeseBurger",["Item", "food"],["CheeseBurger", "CheeseBurger"],[100, 100], [0.5, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_CheeseBurger",localize "STRS_inv_item_nahrung_info", [] ],
+["Bread",["Item", "food"],["Bread", "Vegemite Sandwich"],[400, 300], [0.3, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_Bread",localize "STRS_inv_item_nahrung_info", [["getreide", 2]] ],
+["CheeseBurger",["Item", "food"],["CheeseBurger", "CheeseBurger"],[100, 100], [0.2, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_CheeseBurger",localize "STRS_inv_item_nahrung_info", [] ],
 
 ////////////////////////////////////////////////////////////////////////////Construction////////////////////////////////////////////////////////
 

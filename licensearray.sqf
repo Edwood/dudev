@@ -7,6 +7,7 @@ INV_Lizenzen =
 //["pickup",university,localize "STRS_license_pickup",10000],
 ["boat",university,localize "STRS_license_boat",2500],
 ["truck",university,localize "STRS_license_truck",2500],
+["passport",university,localize "STRS_license_passport",10000],
 ["oil",Oil_1,"Oil processor's license",300],
 ["cocaine",cocainelab,"Cocaine processor's license",50000],
 ["marijuana",DrugShed,"Marijuana processor's license",50000],

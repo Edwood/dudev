@@ -1,5 +1,5 @@
 
-private ["_emptyshop","_fs","_is","_gs","_es","_cu","_cs","_ps","_ts","_sc","_bs","_bt","_bc","_td","_ms","_os","_ws","_db","_db1","_db2","_db3","_dsc","_dsm","_dsl","_dsh","_Construction","_ca","_cv","_copshop","_copshop_patrol","_copshop_response","_copshop_sobr","_terrorshop_buy","_assassinshop_buy","_gangshop_buy"];
+private ["_emptyshop","_fs","_is","_gs","_es","_cu","_bm","_cs","_ps","_ts","_sc","_bs","_bt","_bc","_td","_ms","_os","_ws","_db","_db1","_db2","_db3","_dsc","_dsm","_dsl","_dsh","_Construction","_ca","_cv","_copshop","_copshop_patrol","_copshop_response","_copshop_sobr","_terrorshop_buy","_assassinshop_buy","_gangshop_buy"];
 if(isServer)then
 
 {
@@ -177,7 +177,10 @@ INV_itemstocks =
 -1,
   
 //terrorshop1
-[-1,-1,-1,-1,2,-1,2,-1,4,-1,5,5,5,5,-1,-1,2,-1,1,-1,-1,-1,5,2,2,2,2,2,-1,-1,-1,-1]
+[-1,-1,-1,-1,2,-1,2,-1,4,-1,5,5,5,5,-1,-1,2,-1,1,-1,-1,-1,5,2,2,2,2,2,-1,-1,-1,-1],
+
+//bm
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
 
 ];
 
@@ -359,7 +362,10 @@ INV_itemmaxstocks =
 -1,
 
 //terrorshop1//
-[-1,-1,-1,-1,5,-1,5,-1,8,-1,10,10,10,10,-1,-1,5,-1,3,-1,-1,-1,10,5,5,5,5,5,-1,-1,-1,-1]
+[-1,-1,-1,-1,5,-1,5,-1,8,-1,10,10,10,10,-1,-1,5,-1,3,-1,-1,-1,10,5,5,5,5,5,-1,-1,-1,-1],
+
+//bm
+[-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
 
 ];
 
@@ -386,12 +392,12 @@ _db = ["MarijuanaSeed","HeroinSeed","CocaineSeed"];
 _db1 = ["marijuana","cocaine","lsd"];
 _db2 = ["cocaine","lsd"];
 _db3 = ["heroin"];
-_dsc = ["cocaine"];
-_dsm = ["marijuana","lsd","heroin"];
+_dsc = ["cocaine", "lsd"];
+_dsm = ["marijuana", "heroin", "MarijuanaSeed", "HeroinSeed"];
 _dsl = ["lsd"];
 _dsh = ["heroin"];
 _ACl = ["beer","beer2","vodka","smirnoff","wiskey","wine","wine2"];
-
+_bm = ["Binocular", "GPS", "chips", "NVGoggles", "Colt1911", "PipeBomb", "Rnd_45ACP_1911", "SVD_CAMO", "10Rnd_762x54_SVD", "MP5A5", "30Rnd_9x19_MP5", "medikit", "kleinesreparaturkit", "reparaturkit", "vodka", "lsd", "marijuana", "lockpick"];
 _Construction   = ["Sign_Danger", "Land_Wall_Gate_Ind1_L","Land_Wall_CBrk_5_D", "Fort_RazorWire", "RoadCone", "Land_Campfire", "Pile_of_wood", "Fence", "RoadBarrier_long"];
 _ca = ["Mi17_medevac_CDF", "MH60S"];
 _cv = ["MMT_USMC","M1030", "LadaLM", "hilux1_civil_3_open", "Kamaz", "HMMWV", "Copcar", "Copcarhw", "Copcarhw2", "Copcaraus", "Copcarausgreen"];
@@ -650,7 +656,8 @@ INV_ItemShops = [
 [copcriminal,"Criminal Response-Officer",copcriminal,dummyobj,_copshop_response,_copshop_response,true],
 [copswat,"SOBR",copswat,dummyobj,_copshop_sobr,_copshop_sobr,true],
 
-[terrorshop,"Terror Shop",tgunbox,dummyobj,_terrorshop_buy,_terrorshop_buy,true]
+[terrorshop,"Terror Shop",tgunbox,dummyobj,_terrorshop_buy,_terrorshop_buy,true],
+[blackmar,"Black Market",blackbox,dummyobj,_bm,_bm,false]
 //[agunshop,"Assassin Rifles Shop",agunbox,dummyobj,_assassinshop_buy,_assassinshop_buy,true]
 
 ];

@@ -177,8 +177,6 @@ if(iscop)then{
 	lbAdd [1, (format ["Kord MG's functional: %1/4", _MGS])];
 	lbAdd [1, (format ["PK MG nest's functional: %1/4", _PKS])];
 
-	_count = count nearestobjects[getpos Militarybase,["MVD_soldier","MVD_Soldier_GL","MVD_Soldier_TL","MVD_Soldier_MG","MVD_Soldier_Sniper"], 400];
-
 	lbAdd [1, (format ["Squad patrols active: %1/%2", round (_count/4),(maxinfai/4)])];
 	
 };

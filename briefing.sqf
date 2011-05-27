@@ -23,12 +23,16 @@ Added:-Rules these will be changed in near future.<br/>
 Added:-Cop Patrol scroll on cop bank to activate.<br/>
 Added:-Unflip vechile script just scroll to unflice vechile.<br/>
 Added:-SUV'S to Ute shop and cop chop.<br/>
-Added:-F-150 Plymouth X2 diffrent models to car shops.<br/>
+Added:-F-150 to car shops.<br/>
+Added:-5 sports cars to sports car shop.<br/>
+Added:-Bride that goes north from border town to nz airport.<br/>
 Added:-New Seed shop in NZ.<br/>
 Added:-New Air vechiles in air factory (Little Bird, glider, and prop plane x2 coulors.<br/>
 Added:-Mh60s to Cop Air.<br/>
 Added:-Fishing Boat at boat shops.<br/>
 Added:-Blue Security Dye explosion when robbing bank.<br/>
+Added:-PassPort to license and real estae menu u now need passport to cross border.<br/>
+Fixed:-Bridge just after border that flips u.<br/>
 Changed:-U can now use speed upgrades 1,2,3 on boats be carefull.<br/>
 Changed:-Prices of some items, vechiles.<br/>
 Changed:-U now have to cross border for certain things.<br/>
@@ -238,6 +242,8 @@ or successful murder of a police officer (simple evasion does not qualify as att
 of a police officer). Vehicles used in any other sort of crime must be impounded.<br/>
 -Cops can kill workplace workers if found driveing on rong side of road or doing eligal things.<br/>
 but not if the are unarmed walking around map or in a workplace.<br/>
+-Cops must check for passports if they see a civ at the border and can arrest a civ for 5mins or give a 20k<br/>
+fine, if the civ is found crossing the border buy the arresting officer.<br/>
 
 "
 ]
@@ -262,6 +268,7 @@ player createDiaryRecord ["rules",
  while driving any type of vehicle they may sent to prison for 2-3 minutes.<br/>
 -ROLEPLAY<br/>
 Any civilian who steals a police vehicle may have lethal used against them<br/>
+-Civs must carry a passport if travelling from aus to nz and nz to aus or can be arrested for 5mins or 20k fine.<br/>
 
 "
 ]
@@ -355,5 +362,5 @@ Back to wall:<br/>
 	- Grenade overhead throw: press salute and then do above<br/>
 	
 "
-[
+]
 ];
