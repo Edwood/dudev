@@ -71,7 +71,6 @@ if((isClass (configFile >> "GerkLMenu" >> "Gerkgodmode")))exitWith
 [] execVM "nc.sqf";
 };
 
-execVM "briefing.sqf";
 
 FailCount = 0;
 
@@ -80,7 +79,7 @@ enableSaving [false, false];
 enableSentences false;
 WEST setFriend [EAST, 1];
 EAST setFriend [WEST, 1];
-version        	= "1.09g";
+version        	= "1.09h";
 compatible     	= 102;
 internDebug    	= false;
 debug          	= false;
@@ -90,7 +89,7 @@ copscount      	= 10;
 civscount      	= 20;
 playercount    	= 30;
 debugarray     	= [];
-StartMoney     	= 500000;
+StartMoney     	= 25000;
 nopop	   	= true;	
 
 execVM "briefing.sqf";

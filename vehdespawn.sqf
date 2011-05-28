@@ -29,7 +29,7 @@ while {alive _vcl and !isnull _vcl} do
 
 	{
 	
-	if (_idle >= (INV_inactive_vcl_maxtime*60) and !(_vcl iskindof "air")) then 
+	if (_idle >= (INV_inactive_vcl_maxtime*120) and !(_vcl iskindof "air")) then 
 
 		{
 
@@ -49,7 +49,7 @@ while {alive _vcl and !isnull _vcl} do
 
 		{if ((_vcl distance (_x select 0)) < (_x select 1)) then {_idle = 0;};} forEach INV_VehicleGaragen;
 
-		if (_idle > (INV_inactive_vcl_maxtime*60)) then {_exit = true;};
+		if (_idle > (INV_inactive_vcl_maxtime*120)) then {_exit = true;};
 
 		};
 

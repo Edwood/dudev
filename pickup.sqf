@@ -24,7 +24,9 @@ if (_amount <= 0) exitWith {player groupChat localize "STRS_inv_buyitems_maxgewi
 
 };
 
-if(_exitvar == 1)exitwith{};
+//if(_exitvar == 1)exitwith{};
+
+if(_exitvar == 1)exitwith{pickingup=false}; //this might be a fix for picking up bug.
 
 pickingup   = true;
 

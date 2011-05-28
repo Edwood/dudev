@@ -4,7 +4,7 @@ INV_smscost		 = 2;
 add_civmoney		 = 1500;
 add_copmoney		 = 4000;
 add_workplace		 = 5000;
-copchoprespawntime       = 120;
+copchoprespawntime       = 30;
 CopWaffenAvailable       = 0;							
 CopIsInPrison            = false;					
 CopInPrisonTime          = 300;								
@@ -24,15 +24,15 @@ konvoyrespawnzeit        = 10;
 eigene_zeit              = time;				
 money_limit              = 2500000; 
 bank_limit		 = 5000000; 										
-wantedbonus              = 500;         														
+wantedbonus              = 1200;         														
 StunActiveTime           = 0;  
-StunTimePerHit		 = 15; 
+StunTimePerHit		 = 10; 
 MaxStunTime		 = 30;        									 				
 GeldStehlenMax           = 200000;
 demerits                 = 0;
 gtbonus 		 = 10;
 gtactive		 = false;
-ctactive		 =false;
+ctactive		 = false;
 keyblock		 = false;
 maxboars		 = 30;
 maxrabbits		 = 30;
@@ -50,14 +50,14 @@ facworkercost		 = 12000;
 maxfacworkers		 = 10;
 firingcaptive		 = false;
 pickingup   		 = false;
-lockpickchance		 = 25;
+lockpickchance		 = 39;
 planting		 = false;
 dll_tow_debug 		 = false;
 //==============================PETROL/OIL=========================================
-TankenCost               = 100;
+TankenCost               = 150;
 petroluse                = 1;
 maxpetroluse             = 300; 
-oildemand                = 0.40;
+oildemand                = 0.69;
 oilsellpricedec          = 30;
 oilbaseprice		 = 10000;
 //==============================MINING/coal=============================================
@@ -196,7 +196,7 @@ DeadWaitSec              = respawnzeit;
 DeadTimeMax              = 300;         								
 deadtimebonus            = 0.001;       															
 deadtimes                = 0;
-suicidepenalty		 = 60; 
+suicidepenalty		 = 120; 
 CopsKilled               = 0;           									
 CivsKilled               = 0;           												
 SelfKilled               = 0;
@@ -210,7 +210,7 @@ if(debug)then{suicidepenalty = 0;respawntimeinc = 0;killedplayerinc = 0};
 isMayor                  = false;      	
 WahlArray                = [];         
 MayorNumber              = -1;         	
-MayorExtraPay            = 3000;       							
+MayorExtraPay            = 3500;       							
 
 for [{_i=0}, {_i < playercount}, {_i=_i+1}] do {WahlArray = WahlArray + [ [] ];};												
 
@@ -327,7 +327,7 @@ deadcam_position_array   =
 
 escort_cost               = 5000;
 escortmoneyprosekunde	 = 5000;
-escort_money_per_sec	= 1200;
+escort_money_per_sec	= 1900;
 maxescort                 = 3;
 copescortallowed          = 0;
 localescort               = 0;
@@ -357,10 +357,10 @@ zeitbombe_mintime        = 10;
 zeitbombe_maxtime        = 0;	
 HideoutLocationArray     = CityLocationArray;
 publichideoutarray       = [];
-hideoutcost		 = 20000;
+hideoutcost		 = 5000;
 marker_ausserhalb        = param1; 														
 marker_innerhalb         = 5;      			
-marker_CopDistance       = 50;   //controls distance cops need to be to make civ dots appear outside of towns. 					
+marker_CopDistance       = 75;   //controls distance cops need to be to make civ dots appear outside of towns. 					
 CivMarkerUngenau         = 20;     								
 copmarker_on             = 1; 
 despawnarray	 	 = [["EvMoney", 300], ["Suitcase", 300]];
@@ -488,7 +488,7 @@ if(isServer)then
 
 for [{_i=0}, {_i < count gangareas}, {_i=_i+1}] do {(gangareas select _i) setvariable["control", "cops", true]};
 
-TankenCost = 100; publicvariable "TankenCost";
+TankenCost = 150; publicvariable "TankenCost";
 bombactive = false; publicvariable "bombactive";
 
 onplayerconnected '

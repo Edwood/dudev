@@ -1,0 +1,444 @@
+
+---------- 1007210.SQF
+
+---------- 1098936.SQF
+
+---------- 1128464.SQF
+
+---------- 1614524.HPP
+
+---------- 1712192.HPP
+
+---------- 2085272.HPP
+
+---------- 3072575.SQF
+
+---------- 3121315.SQF
+
+---------- 3126728.SQF
+
+---------- 34399681.HPP
+
+---------- 3442919.SQF
+
+---------- 3778285.HPP
+
+---------- 4422894.SQF
+
+---------- 4461230.HPP
+
+---------- 4782911.HPP
+
+---------- 740153.SQF
+
+---------- ACTIONS.SQF
+
+---------- ADDLICENSE.SQF
+
+---------- ADDSTORAGE.SQF
+
+---------- AFILE
+
+---------- ALKEFFEKT.SQF
+
+---------- ASSASSINATION.SQF
+
+---------- ATM.SQF
+
+---------- BAIL.SQF
+
+---------- BANK.HPP
+
+---------- BANKALARM.OGG
+
+---------- BANKEXEC.SQF
+
+---------- BANKROB.SQF
+
+---------- BANKVARIABLES.SQF
+
+---------- BBOX.SQF
+
+---------- BOMBS.SQF
+
+---------- BRIEFING.SQF
+if(player diarySubjectExists "rules")exitwith{};
+player createDiarySubject ["rules","General Rules"];
+player createDiaryRecord ["rules", 
+-If caught breaking rules, punishments are as followed (Do note, admins can/will ban for first offense)<br/>
+player createDiaryRecord ["rules", 
+player createDiaryRecord ["rules", 
+player createDiaryRecord ["rules", 
+"Aircraft rules", 
+player createDiaryRecord ["rules", 
+"Terrorism rules", 
+-Bombing important buildings like the Civilian Spawn or general factory is against the rules<br/>
+player createDiaryRecord ["rules", 
+"Cop rules", 
+player createDiaryRecord ["rules", 
+
+---------- BROADCAST.SQF
+
+---------- BUYHOUSE.SQF
+
+---------- BUYSHOP.SQF
+
+---------- CARPARKS.SQF
+
+---------- CARTEST.SQF
+
+---------- CHANGECLASS.SQF
+
+---------- CHANGELOGS.TXT
+
+---------- CHECKRADIO.SQF
+
+---------- CHIEF.SQF
+
+---------- CHOOSECITY.SQF
+
+---------- CIVMENU.HPP
+
+---------- CIVMENU.SQF
+
+---------- CIVMENUINIT.SQF
+
+---------- CLEARTREES.SQF
+
+---------- CLIENTLOOP.SQF
+
+---------- CONVOYSTORAGE.SQF
+
+---------- COPCAMS.SQF
+
+---------- COPCHOPRESPAWN.SQF
+
+---------- COPMARKERS.SQF
+
+---------- COPPATROL.SQF
+
+---------- COPPRISON.SQF
+
+---------- CREATEFACITEM.SQF
+
+---------- CREATEFUNCTIONS.SQF
+
+---------- CREATEOBJECT.SQF
+
+---------- CREATESQUAD.SQF
+
+---------- CUSTOMFUNCTIONS.SQF
+
+---------- DEFUSER.SQF
+
+---------- DELIVERY.SQF
+
+---------- DESCRIPTION.EXT
+
+---------- DROP.SQF
+
+---------- DRUGPLANT.SQF
+
+---------- DRUGS.SQF
+
+---------- DRUGSCRIPT.SQF
+
+---------- DRUGSEARCH.SQF
+
+---------- EDFILE
+
+---------- EFFECTS.SQF
+
+---------- ESCORT.SQF
+
+---------- EXECLOTTO.SQF
+
+---------- EXPORTVEHICLE.SQF
+
+---------- FACBUY.SQF
+
+---------- FACHARVEST.SQF
+
+---------- FACMANI.SQF
+
+---------- FACQUEUE.SQF
+
+---------- FOOD.SQF
+
+---------- GANGFLAGS.SQF
+
+---------- GANGS.SQF
+
+---------- GATHERGEN.SQF
+
+---------- GFX.HPP
+
+---------- GFX.SQF
+
+---------- GIVE.SQF
+
+---------- GUNTEST.SQF
+
+---------- HANDY.SQF
+
+---------- HEADBUG.SQF
+
+---------- HIDEOUT.SQF
+
+---------- HOLSTERSCRIPT.SQF
+
+---------- IGNITEFUEL.SQF
+
+---------- IMPOUND.SQF
+
+---------- INIT.SQF
+
+---------- INITFILENAMES.SQF
+
+---------- INITFUNCS.SQF
+
+---------- INITPLAYER.SQF
+
+---------- INITRADIO.SQF
+
+---------- INITWPMISSIONS.SQF
+
+---------- INTERACT.SQF
+
+---------- INTEREST.SQF
+
+---------- INTROCAM.SQF
+
+---------- INVACTIONS.SQF
+
+---------- INVDIALOGS.HPP
+
+---------- INVENTORY.SQF
+
+---------- INVFUNCTIONS.SQF
+
+---------- INVISIBLEFENCE.SQF
+
+---------- INVVARS.SQF
+
+---------- INV_OBJECTS.SQF
+
+---------- ITEMACTIONS.SQF
+
+---------- ITEMBAG.SQF
+
+---------- ITEMPROCESS.SQF
+
+---------- KEYS.SQF
+
+---------- KILLER.SQF
+
+---------- LARGEREPAIR.SQF
+
+---------- LICENSEARRAY.SQF
+
+---------- LOCALP.SQF
+
+---------- LOCKHOUSE.SQF
+
+---------- LOCKPICK.SQF
+
+---------- LOTTO.SQF
+
+---------- LOTTOACTIONS.SQF
+
+---------- LOTTOARRAYS.SQF
+
+---------- LOTTODIALOG.SQF
+
+---------- MAINDIALOGS.HPP
+
+---------- MAINDIALOGS.SQF
+
+---------- MANDO_PLAYTRACK.SQF
+
+---------- MARKERS.SQF
+
+---------- MASTERARRAY.SQF
+
+---------- MAYOR.SQF
+
+---------- MEDKIT.SQF
+
+---------- MINE.SQF
+
+---------- MISCFUNCTIONS.SQF
+
+---------- MISSION.SQM
+
+---------- NAMETAGS.SQF
+
+---------- NC.SQF
+
+---------- NITRO.SQF
+
+---------- NOMOVE.SQF
+
+---------- NOSCRIPT.SQF
+
+---------- NOUSE.SQF
+
+---------- OBJECTDESPAWN.SQF
+
+---------- ONKEYPRESS.SQF
+
+---------- PETROLACTIONS.SQF
+
+---------- PETROLREFUEL.SQF
+
+---------- PICKUP.SQF
+
+---------- PLAYERARRAYS.SQF
+
+---------- POWER.SQF
+
+---------- PULLOUT.SQF
+
+---------- RADIO.SQF
+
+---------- RADIOJAMMER.SQF
+
+---------- RECRUITAI.SQF
+
+---------- REFUELVEH.SQF
+
+---------- REJOINCAMERA.SQF
+
+---------- REPAIR.SQF
+
+---------- RESPAWN.SQF
+
+---------- RESPAWNCAMERA.SQF
+
+---------- RESTRAIN.SQF
+
+---------- ROADCONE.SQF
+
+---------- RSCDEFINES.HPP
+
+---------- RSCTITLES.HPP
+
+---------- SALARIES.SQF
+
+---------- SATCAM.SQF
+
+---------- SAVEVARFUNCS.SQF
+
+---------- SEARCH.SQF
+
+---------- SELLHOUSE.SQF
+
+---------- SETFREE.SQF
+
+---------- SETHIT.SQF
+
+---------- SETOBJECTPITCHES.SQF
+
+---------- SETPITCHBANK.SQF
+
+---------- SETTINGS.SQF
+
+---------- SHOPDIALOGS.SQF
+
+---------- SHOPFARMFACLICENSEACTIONS.SQF
+
+---------- SHOPS.SQF
+
+---------- SHOPS2.SQF
+
+---------- SHOPTRANSACTIONS.SQF
+
+---------- SHOWPLAYER.SQF
+
+---------- SIREN.SQF
+
+---------- SIREN_LONG.OGG
+
+---------- SIREN_SHORT.OGG
+
+---------- SIT.SQF
+
+---------- SKIPTIME.SQF
+
+---------- SKIPTIME2.SQF
+
+---------- SLAVES.SQF
+
+---------- SOUNDS.HPP
+
+---------- SPEEDCAMS.SQF
+
+---------- STORAGE.SQF
+
+---------- STRFUNCS.SQF
+
+---------- STRINGTABLE.CSV
+STRS_anfang_06,"Please play by the rules and in the spirit of the game\n\nHave fun!"
+
+---------- STRINGTABLE.CSV.BAK
+STRS_anfang_06,"Please play by the rules and in the spirit of the game\n\nHave fun!"
+
+---------- STUN.SQF
+
+---------- SUICIDE.SQF
+
+---------- SUPGRADE.SQF
+
+---------- SYPHON.SQF
+
+---------- TARGETS.SQF
+
+---------- TAXI.SQF
+
+---------- TEARGAS.SQF
+
+---------- TRANSACT.SQF
+
+---------- TRIGGERS.SQF
+
+---------- TUNERADIO.SQF
+
+---------- UNFLIPVEHICLE.SQF
+
+---------- UNRESTRAIN.SQF
+
+---------- UPDATEHOUSE.SQF
+
+---------- UPS.SQF
+
+---------- USERESOURCE.SQF
+
+---------- VARIABLES.SQF
+
+---------- VARIABLES.SQF.BAK
+
+---------- VCLAMMO.SQF
+
+---------- VCLARRSAVE.SQF
+
+---------- VEHDESPAWN.SQF
+
+---------- VEHICLECHECK.SQF
+
+---------- VEHINFO.SQF
+
+---------- VICTIM.SQF
+
+---------- WANTEDRELEASE.SQF
+
+---------- WEAPONBAG.SQF
+
+---------- WEAPONCONVOY.SQF
+
+---------- WEATHER.SQF
+
+---------- WORKER.SQF
+
+---------- WORKERKILLED.SQF
+
+---------- WORKPLACESETTINGS.SQF

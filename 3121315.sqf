@@ -9,13 +9,13 @@ if (_art == "use") then {
 	
 	if (_jammed == 1) exitWith {player groupChat "You are already using the Jammer";};
 		
-	_dauer = (10 * 60);
+	_dauer = (20 * 60);
 	
 	call compile format ["%1_markerjammed = 1; publicVariable ""%1_markerjammed"";",_civ];
 	
 	player groupChat format ["The Jammer has now been activated",(stoersender_dauer call ISSE_str_IntToStr)];
 	
-	showMap false;
+	showMap true;
 	[_item, -1] call INV_AddInventoryItem;
 	sleep _dauer;
 	

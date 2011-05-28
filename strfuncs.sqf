@@ -71,7 +71,7 @@ _num = _this call ISSE_str_GetInteger;
 
 ISSE_str_isFloat = {((_this call ISSE_str_GetInteger) select 0)};
 
-ISSE_str_StrToInt = {(   (999999)  min  ( round ((_this call ISSE_str_GetInteger) select 1) )   )};
+ISSE_str_StrToInt = {(   (2500000)  min  ( round ((_this call ISSE_str_GetInteger) select 1) )   )};
 
 ISSE_str_StrToLongint = {( round ((_this call ISSE_str_GetInteger) select 1) )};
 

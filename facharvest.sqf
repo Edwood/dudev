@@ -130,23 +130,26 @@ _itemfactory=
 "medikit",
 "lighter",
 "defuser",
+"stoersender",
 "fernzuender",
 "vclammo",
 "Shovel",
 "Pickaxe",
 "JackHammer",
+"SmokeShell",
 "supgrade1",
 "supgrade2",
 "supgrade3",
 "supgrade4",
 "supgrade5"
 
+
 ];
 
 _confac = [ "Sign_Danger", "Land_Wall_Gate_Ind1_L", "Land_Wall_CBrk_5_D", "Fort_RazorWire", "RoadCone", "Land_Campfire", "Pile_of_wood", "Fence", "RoadBarrier_long"];
-_airfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1"];
+_airfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1"];
 _tairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1"];
-_nzairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1"];
+_nzairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1"];
 
 vehiclequeue  	= [];
 tvehiclequeue 	= [];
@@ -161,13 +164,13 @@ INV_ItemFabriken =
 
 [
 
-[Vehiclefactory,"factory1","Vehicle Factory",dummyobj,vfacspawn,_vehiclefactory,100000,"Fabrikablage1", "vehiclequeue"],
+[Vehiclefactory,"factory1","Vehicle Factory",dummyobj,vfacspawn,_vehiclefactory,35000,"Fabrikablage1", "vehiclequeue"],
 [airshop,"factory2","AirFactory",dummyobj,airspawn,_airfactory,100000,"Fabrikablage2", "avehiclequeue"],
 [ItemFabrik_1,"factory3","General Factory",igunbox,dummyobj,_itemfactory,50000,"Fabrikablage3", "itemqueue"],
 [terrorshop2,"factory4","Weapon Factory",tgunbox2,dummyobj,_weaponfactory,80000,"Fabrikablage4", "weaponqueue"],
 //[terrorshop2,"factory5","Terror Factory",dummyobj,tfacspawn,_terrorfactory,100000,"Fabrikablage5", "tvehiclequeue"],
 [tairshop,"factory6","Terror Air Factory",dummyobj,tairspawn,_tairfactory,100000,"Fabrikablage6", "tavehiclequeue"],
-[construcfac,"factory7","Construction Factory",conbox,dummyobj,_confac,100000,"Fabrikablage7", "confacqueue"],
+[construcfac,"factory7","Construction Factory",conbox,dummyobj,_confac,10000,"Fabrikablage7", "confacqueue"],
 [airnz,"factory8","NZAirFactory",dummyobj,airnzspawn,_nzairfactory,100000,"Fabrikablage8", "a2vehiclequeue"]
 
 ];

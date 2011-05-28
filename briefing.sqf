@@ -25,22 +25,29 @@ Added:-Unflip vechile script just scroll to unflice vechile.<br/>
 Added:-SUV'S to Ute shop and cop chop.<br/>
 Added:-F-150 to car shops.<br/>
 Added:-5 sports cars to sports car shop.<br/>
-Added:-Bride that goes north from border town to nz airport.<br/>
+Added:-Bridge that goes north from border town to nz airport.<br/>
 Added:-New Seed shop in NZ.<br/>
 Added:-New Air vechiles in air factory (Little Bird, glider, and prop plane x2 coulors.<br/>
 Added:-Mh60s to Cop Air.<br/>
 Added:-Fishing Boat at boat shops.<br/>
 Added:-Blue Security Dye explosion when robbing bank.<br/>
 Added:-PassPort to license and real estae menu u now need passport to cross border.<br/>
+Added:-Black Market see if u can find him. He will be hideing in building populated areas not in the bush.<br/>
+Added:-2 more boats to boats shop.<br/>
+Added:-Civ marker radio jammers at whippys equip.<br/>
 Fixed:-Bridge just after border that flips u.<br/>
+Fixed:-Pickup bug we hope.<br/>
 Changed:-U can now use speed upgrades 1,2,3 on boats be carefull.<br/>
-Changed:-Prices of some items, vechiles.<br/>
+Changed:-Prices of some items, vechiles, ect.<br/>
+Changed:-Vechile Factory is now in main town so u can make and drive the cars to sell them in surrounding areas.<br/>
 Changed:-U now have to cross border for certain things.<br/>
 Changed:-Map Layout (juddy is working on complete new layout atm).<br/>
 Changed:-Items shop can no longer buy phone, medikit, lighter.<br/>
 Changed:-Whippy's shop now also stocks the phone, medikit, lighter, stone's.<br/>
 Changed:-Bank Varibles it now holds max of 666666k.<br/>
-Changed:-Border Thanks to MR Jonzie
+Changed:-Border Thanks to MR Jonzie.<br/>
+Changed:-Boat and Truck license are now at rta.<br/>
+Changed:-Amount the bank safe recieves from 2k evry safe for evry 60 secs to 300 evry safe.<br/>
 
 "
 ]

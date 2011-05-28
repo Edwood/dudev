@@ -107,8 +107,8 @@ INV_AlleFahrzeugeArray = [
 
 //////////////////////////////////////////////////////////Boats//////////////////////////////////////////////////////////////////
 
-//["Smallboat_1",["Fahrzeug", "boat"],["Leisure Boat", "Leisure Boat"],[15000, 90000], [0, "boat", "probator", 200], [100, [1,0,0,4] ], "speedboat2" call ISSE_Cfg_Vehicle_GetName, "speedboat2" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 2],["ebauteile", 1],["glas", 2],["plastik", 5],["erdoel", 5],["geld",3000]] ],
-//["Smallboat_2",["Fahrzeug", "boat"],["Leisure Boat", "Leisure Boat 2"],[15000, 90000], [0, "boat", "probator", 200], [100, [1,0,0,4] ], "speedboat3" call ISSE_Cfg_Vehicle_GetName, "speedboat3" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 2],["ebauteile", 1],["glas", 2],["plastik", 5],["erdoel", 5],["geld",2000]] ],
+["Smallboat_1",["Fahrzeug", "boat"],["speedboat2", "Leisure Boat"],[15000, 12000], [0, "boat", "probator", 200], [100, [1,0,0,4] ], "speedboat2" call ISSE_Cfg_Vehicle_GetName, "speedboat2" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 2],["ebauteile", 1],["glas", 2],["plastik", 5],["erdoel", 5],["geld",3000]] ],
+["Smallboat_2",["Fahrzeug", "boat"],["speedboat3", "Leisure Boat 2"],[15000, 12000], [0, "boat", "probator", 200], [100, [1,0,0,4] ], "speedboat3" call ISSE_Cfg_Vehicle_GetName, "speedboat3" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 2],["ebauteile", 1],["glas", 2],["plastik", 5],["erdoel", 5],["geld",2000]] ],
 ["Fishing_Boat",["Fahrzeug", "boat"],["speedboat5", "Fishing Boat"],[22000, 15000], [0, "boat", "probator", 600], [100, [1,0,0,4] ], "speedboat5" call ISSE_Cfg_Vehicle_GetName, "speedboat5" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 2],["ebauteile", 1],["glas", 2],["plastik", 5],["erdoel", 5],["geld",1000]]],
 ["PBX", ["Fahrzeug", "boat"],["PBX", "PBX"],[6000, 4250], [0, "boat", "", 60], [100,[1,1,0,3] ], "PBX" call ISSE_Cfg_Vehicle_GetName, "PBX" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 1],["ebauteile", 1],["glas", 2],["plastik", 3],["erdoel", 5]] ],
 ["RHIB",["Fahrzeug", "boat"],["RHIB", "RHIB"], [25000, 15000],[0, "boat", "sobr_training", 200], [100,[1,2,0,10] ], "RHIB" call ISSE_Cfg_Vehicle_GetName, "RHIB" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 8],["ebauteile", 4],["glas", 8],["plastik", 20],["erdoel", 5],["kupfer", 20],["schwarzpulver", 15]]],
@@ -118,8 +118,9 @@ INV_AlleFahrzeugeArray = [
 
 ["MH60S",["Fahrzeug", "air"],["MH60S", "MH-60S"],[350000, 250000], [5, "air", "air_support_training", 500], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["stahl", 500],["ebauteile", 15],["glas", 10],["plastik", 40],["mineraloel", 60],["geld",8000]]],
 ["Mi17_medevac_CDF",["Fahrzeug", "air"],["Mi17_medevac_CDF", "Mi-17-IVA Medevac"],[200000, 100000], [5, "air", "air_support_training", 500], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["stahl", 500],["ebauteile", 15],["glas", 10],["plastik", 40],["mineraloel", 60],["geld",8000]]],
-["AH6X_EP1",["Fahrzeug", "Air"],["AH6X_EP1", "Little Bird"],[2000000, 1400000], [5, "air", "air_support_training", 300], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
-["Mi17_Civilian",["Fahrzeug", "air"],["Mi17_Civilian", "Mi-17-Civil"],[2400000, 1800000], [5, "air", "air_support_training", 500], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
+["AH6X_EP1",["Fahrzeug", "Air"],["AH6X_EP1", "Little Bird"],[1800000, 1400000], [5, "air", "air_support_training", 300], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
+["Mi17_Civilian",["Fahrzeug", "air"],["Mi17_Civilian", "Mi-17-Civil"],[2000000, 1800000], [5, "air", "air_support_training", 500], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
+["MH6J_EP1",["Fahrzeug", "Air"],["MH6J_EP1", "6 Seat Little Bird"],[2000000, 1000000], [5, "air", "air_support_training", 360], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
 
 ////////////////////////////////////////////////////////////Planes///////////////////////////////////////////////////////////////
 
@@ -244,7 +245,7 @@ INV_AlleItemsArray = [
 //["towrope",["Item", "service"],["towrope", "Tow Rope"],[1525, 1020], [4, "engineer", "patrol_training"],[true,true,true, false, "noscript.sqf"],localize "STRS_inv_item_towkit", localize "STRS_inv_item_towkit_info",[["plastik", 1],["stahl", 2]] ],
 ["lighter",["Item", "service"],["lighter", "lighter"],[2, 1], [0.5, "", ""],[true,true,true, false, "ignitefuel.sqf"],localize "STRS_inv_item_lighter", localize "STRS_inv_item_lighter_info",[["erdoel", 2]] ],
 ["kleinesreparaturkit", ["Item", "service"],["kleinesreparaturkit", "Repair Kit"],[1050, 750], [2, "", ""],[true,true,true, false, "repair.sqf"],localize "STRS_inv_item_repairkit",localize "STRS_inv_item_repairkit_info",[["plastik", 1]] ],
-["kanister", ["Item", "service"],["kanister", "Refuel Can"], [200, 100], [2, "", ""],[true,true,true, false, "refuelveh.sqf"], localize "STRS_inv_item_kanister", localize "STRS_inv_item_kanister_info",[["plastik", 1],["erdoel", 1]] ],
+["kanister", ["Item", "service"],["kanister", "Refuel Can"], [900, 600], [2, "", ""],[true,true,true, false, "refuelveh.sqf"], localize "STRS_inv_item_kanister", localize "STRS_inv_item_kanister_info",[["plastik", 1],["erdoel", 1]] ],
 ["Fuelline", ["Item", "service"],["Syphon Fuelkit", "Syphon Fuel-kit"], [50, 20], [1, "", ""],[true,true,true, false, "syphon.sqf"], localize "STRS_inv_item_fuelcut", localize "STRS_inv_item_fuelcut_info",[["stahl", 1]] ],
 ["OilBarrel", ["Item", "service"],["Oil Barrel", "Oil Barrel"], [50000, 40000], [10, "", ""],[true,true,true, false, "refuelveh.sqf"], "Barrel of oil", localize "STRS_inv_item_kanister_info",[["Oil", 50]] ],
 ["schluesselbund",["Item", "carobjects"],["schluesselbund", "Key chain"],[0, 0], [0, ""], [false,false, false,false,"keys.sqf"],localize "STRS_inv_item_schluesselbund",localize "STRS_inv_item_schluesselb_info", [] ],
@@ -351,14 +352,16 @@ INV_AlleItemsArray = [
 ["RoadBarrier_long",["Item", "misc"],["RoadBarrier_long", "Roadbarrier"],[8000, 2000], [10, "engineer", "patrol_training"], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_objs",localize "STRS_inv_item_objs_info", [] ],
 ["LocalBasicWeaponsBox", ["Item", "misc"], ["LocalBasicWeaponsBox", "Storage box"],[10000, 3750], [0, "", "", 200],[true,true,true, false, "nouse.sqf"], "Storage box", "Storage box",[] ],
 ["Land_fortified_nest_big",["Item", "misc"],["Land_fortified_nest_big", "Bunker"],[60000, 57500], [20, "engineer", "patrol_training"], [true, true, true,false,"createobject.sqf"],localize "STRS_inv_item_objs",localize "STRS_inv_item_objs_info", [] ],
-["stoersender",["Item", ",misc"],["stoersender", "Radio jammer"],[800000, 600000],[15, "engineer"], [true, true, true,true,"3121315.sqf"],localize "STRS_item_stoersender",localize "STRS_item_stoersender_info", [["plastik", 4],["ebauteile", 4]] ],
-["cl_Spikestrip", ["Item", "misc"], ["cl_Spikestrip", "Spikestrip"],[10000, 3750], [0, "", ""],[true,true,true, false, "createobject.sqf"], "cl_Spikestrip", localize "STRS_inv_item_roadblock_info",[["stahl", 1],["plastik", 1]] ],
+["stoersender",["Item", ",misc"],["stoersender", "Radio jammer"],[29000, 27000],[15, "engineer"], [true, true, true,true,"3121315.sqf"],localize "STRS_item_stoersender",localize "STRS_item_stoersender_info", [["plastik", 4],["ebauteile", 4]] ],
+["cl_Spikestrip", ["Item", "misc"], ["cl_Spikestrip", "Spikestrip"],[1900, 1250], [0, "", "patrol_training"],[true,true,true, false, "createobject.sqf"], "cl_Spikestrip", localize "STRS_inv_item_roadblock_info",[["stahl", 1],["plastik", 1]] ],
+//["fishgun", ["Item", "misc"], ["fishgun", "Boat Gun"],[30000, 3750], [20, "bomb", "bomb", 600],[true,true,true, false, "fishguns.sqf"], "Hideout storage", "Hideout storage",[] ],
+//["fishingpole", ["Item", "Shop"], ["fishingpole", "Fishing Pole"],[4000, 3750], [5, "", ""],[true,true,true, false, "fishing.sqf"], "Fishing Pole", "Use it in a fishing area.",[["steel", 1], ["plastic", 1],["ebauteile", 1]] ],
 
 //////////////////////////////////////////////////////////////////Mining Tools//////////////////////////////////////////////////////////////////////////
 
 ["Shovel", ["Item", "misc"], ["Shovel", "Shovel"],[50, 35], [5, "", ""],[true,true,true, false, "mine.sqf"], "Shovel", "Use it in a mining area. Durability: 20 Mining speed: slow",[["holz", 2]] ],
 ["Pickaxe", ["Item", "misc"], ["Pickaxe", "Pickaxe"],[100, 50], [5, "", ""],[true,true,true, false, "mine.sqf"], "Pickaxe", "Use it in a mining area. Durability: 50 Mining speed: average",[ ["holz", 2]] ],
-["JackHammer", ["Item", "misc"], ["JackHammer", "Jack Hammer"],[500, 250], [20, "engineer", "probator"],[true,true,true, false, "mine.sqf"], "Jack Hammer", "Use it in a mining area. Durability: 100 Mining speed: fast",[["stahl", 1], ["plastik", 1],["ebauteile", 1]] ],
+["JackHammer", ["Item", "misc"], ["JackHammer", "Jack Hammer"],[500, 250], [20, "Oil_1", ""],[true,true,true, false, "mine.sqf"], "Jack Hammer", "Use it in a mining area. Durability: 100 Mining speed: fast",[["stahl", 1], ["plastik", 1],["ebauteile", 1]] ],
 
 ///////////////////////////////////////////////////////////////Speed Upgrades-Nitro//////////////////////////////////////////////////////////////////////
 
