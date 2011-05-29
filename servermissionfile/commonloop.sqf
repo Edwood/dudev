@@ -66,6 +66,8 @@ while {true} do
 
 };
 
+if !alive "blackmar" then name=objnull;
+
 if(true)exitwith{};
 
 for [{_i=0}, {_i < (count publichideoutarray)}, {_i=_i+1}] do 
