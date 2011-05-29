@@ -128,6 +128,8 @@ INV_AlleFahrzeugeArray = [
 ["ArMaT_GliderUN",["Fahrzeug", "air"],["ArMaT_GliderUN", "Glider"],[100000, 70000], [5, "air", "air_support_training", 500], [1000, [1,2,0,13] ], "ArMaT_GliderUN", "ArMaT_GliderUN", [["stahl", 500],["ebauteile", 15],["glas", 10],["plastik", 40],["mineraloel", 60],["geld",8000]]],
 ["An2_1_TK_CIV_EP1",["Fahrzeug", "Air"],["An2_1_TK_CIV_EP1", "An-2 Prop Plane Red"],[220000, 175000], [5, "air", "air_support_training", 400], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
 ["An2_2_TK_CIV_EP1",["Fahrzeug", "Air"],["An2_2_TK_CIV_EP1", "An-2 Prop Plane Green"],[220000, 175000], [5, "air", "air_support_training", 400], [1000, [1,2,0,13] ], "Mi-17", "Mi-17", [["steel", 500],["ebauteile", 15],["glass", 10],["plastic", 40],["mineraloel", 60],["geld",8000]]],
+["airnz_C130",["Fahrzeug", "air"],["airnz_C130", "Air New Zealand"],[1600000, 1200000], [5, "air", "air_support_training", 500], [1000, [1,2,0,13] ], "airnz_C130", "airnz_C130", [["geld",120000]]],
+["qantas_C130",["Fahrzeug", "air"],["qantas_C130", "Qantas"],[1600000, 1200000], [5, "air", "air_support_training", 500], [1000, [1,2,0,13] ], "qantas_C130", "qantas_C130", [["geld",120000]]],
 
 ////////////////////////////////////////////////////////////Push Bikes/////////////////////////////////////////////////////////////
 
@@ -167,6 +169,7 @@ INV_AlleFahrzeugeArray = [
 
 ///////////////////////////////////////////////////////////Sports Cars//////////////////////////////////////////////////////////////////////
 
+["rosco",["Fahrzeug", "car"],["rosco", "Plymouth Fury"],[55000, 45500], [1, "car", "probator", 100], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
 ["barcuda",["Fahrzeug", "car"],["barcuda", "Plymouth Barracuda"],[135000, 125500], [1, "car", "probator", 100], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
 ["cuda",["Fahrzeug", "car"],["cuda", "70 Plymouth Hemi"],[125000, 115500], [1, "car", "probator", 100], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
 ["roadrunner2",["Fahrzeug", "car"],["roadrunner2", "69 Road Runner"],[175000, 168500], [1, "car", "probator", 100], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
@@ -185,6 +188,7 @@ INV_AlleFahrzeugeArray = [
 ["M1030",["Fahrzeug", "car"],["M1030", "Motorbike"], [2000, 1500], [1, "car", "", 60], [50,[1,0,0,1] ], "M1030" call ISSE_Cfg_Vehicle_GetName, "M1030" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 1],["erdoel", 1]]],
 ["TT650_Civ",["Fahrzeug", "car"],["TT650G", "Motorbike"],[2000, 1500], [1, "car", "probator", 60], [50, [1,0,0,1]], "TT650G" call ISSE_Cfg_Vehicle_GetName, "TT650G" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 1],["erdoel", 1]] ],
 ["TT650_Ins",["Fahrzeug", "car"],["TT650C", "Sports Motorbike"],[2500, 1500], [1, "car", "probator", 60], [50,[1,0,0,1] ], "TT650C" call ISSE_Cfg_Vehicle_GetName,"TT650C" call ISSE_Cfg_Vehicle_GetDesc,[["stahl", 1],["erdoel", 1]]],
+["ATV_CZ_EP1",["Fahrzeug", "car"],["ATV_CZ_EP1", "ATV civ"],[4000, 1500], [1, "car", "probator", 60], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
 
 ///////////////////////////////////////////////////////////////Utes//////////////////////////////////////////////////////////////////
 
@@ -198,6 +202,8 @@ INV_AlleFahrzeugeArray = [
 ["Offroad_DSHKM_INS", ["Fahrzeug", "car"],["Offroad_DSHKM_INS", "Offroad (DSHKM)"],[160000, 30000],[3, "terrorist", "terrorist", 120], [350, [1,0,0,1] ], "Offroad (DSHKM)","Offroad (DSHKM)",[] ],
 ["Offroad_SPG9_Gue", ["Fahrzeug", "car"],["Offroad_SPG9_Gue", "Offroad (SPG9)"],[200000, 30000],[3, "terrorist", "terrorist", 120], [750, [1,0,0,1] ], "Offroad (SPG9)","Offroad (SPG9)",[] ],
 ["SUV_TK_CIV_EP1",["Fahrzeug", "car"],["SUV_TK_CIV_EP1", "Suburban"],[35000, 29500], [2, "car", "patrol_training", 200], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
+["LandRover_TK_CIV_EP1",["Fahrzeug", "car"],["LandRover_TK_CIV_EP1", "LandRover"],[65000, 7500], [2, "car", "probator", 200], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
+["LandRover_CZ_EP1",["Fahrzeug", "car"],["LandRover_CZ_EP1", "LandRover Desert"],[70000, 7500], [2, "car", "probator", 200], [150, [1,0,0,3]], "Skoda" call ISSE_Cfg_Vehicle_GetName, "Skoda" call ISSE_Cfg_Vehicle_GetDesc, [["steel", 4],["glass", 1],["plastic", 1],["plastic", 4]] ],
 
 ///////////////////////////////////////////////////////////Cop Cars////////////////////////////////////////////////////////////////////
 
@@ -211,6 +217,7 @@ INV_AlleFahrzeugeArray = [
 
 ///////////////////////////////////////////////////////////Trucks/////////////////////////////////////////////////////////////////////////
 
+["mackr",["Fahrzeug", "truck"],["mackr", "Mack Truck"],[30000, 28000], [3, "truck", "patrol_training", 400], [500,[1,0,0,13]], "Truck5t" call ISSE_Cfg_Vehicle_GetName, "Truck5t" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 17],["ebauteile", 2],["glas", 2],["plastik", 3],["erdoel", 6]] ],
 ["V3S_Civ",["Fahrzeug", "truck"],["Praha V3S", "Praha V3S"],[40000, 30000], [3, "truck", "patrol_training", 600], [500,[1,0,0,13]], "Truck5t" call ISSE_Cfg_Vehicle_GetName, "Truck5t" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 17],["ebauteile", 2],["glas", 2],["plastik", 3],["erdoel", 6]] ],
 ["Ural_CDF",["Fahrzeug", "truck"],["Ural_CDF", "Ural"],[40000, 30000], [3, "truck", "patrol_training", 600], [500,[1,0,0,13]], "Truck5t" call ISSE_Cfg_Vehicle_GetName, "Truck5t" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 17],["ebauteile", 2],["glas", 2],["plastik", 3],["erdoel", 6]] ],
 ["UralOpen_CDF", ["Fahrzeug", "truck"],["UralOpen", "Ural Open"], [40000, 30000],[3, "truck", "patrol_training", 600], [500, [1,0,0,13] ], "Truck5tOpen" call ISSE_Cfg_Vehicle_GetName, "Truck5tOpen" call ISSE_Cfg_Vehicle_GetDesc, [["stahl", 17],["ebauteile", 2],["glas", 2],["plastik", 3],["erdoel", 6]] ],
@@ -361,7 +368,7 @@ INV_AlleItemsArray = [
 
 ["Shovel", ["Item", "misc"], ["Shovel", "Shovel"],[50, 35], [5, "", ""],[true,true,true, false, "mine.sqf"], "Shovel", "Use it in a mining area. Durability: 20 Mining speed: slow",[["holz", 2]] ],
 ["Pickaxe", ["Item", "misc"], ["Pickaxe", "Pickaxe"],[100, 50], [5, "", ""],[true,true,true, false, "mine.sqf"], "Pickaxe", "Use it in a mining area. Durability: 50 Mining speed: average",[ ["holz", 2]] ],
-["JackHammer", ["Item", "misc"], ["JackHammer", "Jack Hammer"],[500, 250], [20, "Oil_1", ""],[true,true,true, false, "mine.sqf"], "Jack Hammer", "Use it in a mining area. Durability: 100 Mining speed: fast",[["stahl", 1], ["plastik", 1],["ebauteile", 1]] ],
+["JackHammer", ["Item", "misc"], ["JackHammer", "Jack Hammer"],[500, 250], [20, "engineer", ""],[true,true,true, false, "mine.sqf"], "Jack Hammer", "Use it in a mining area. Durability: 100 Mining speed: fast",[["stahl", 1], ["plastik", 1],["ebauteile", 1]] ],
 
 ///////////////////////////////////////////////////////////////Speed Upgrades-Nitro//////////////////////////////////////////////////////////////////////
 

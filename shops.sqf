@@ -71,37 +71,37 @@ INV_itemstocks =
 [5,5,4,3,2,1],
 
 //carshop1    
-[10,5,5,5,4,2,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
+[20,10,5,5,5,4,2,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
 //carshop2        
-[10,5,5,5,4,2,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
+[10,10,5,5,5,4,2,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
 //carshop3        
-[10,5,5,5,4,2,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
+[10,10,5,5,5,4,2,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
 //carshop4        
-[10,5,5,5,4,2,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
+[10,10,5,5,5,4,2,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
 //carshop5        
-[10,5,5],
+[10,10,5,5],
 //carshop6        
-[10,5,5,5,4,2,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
+[10,10,5,5,5,4,2,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
 //carshop7        
-[10,5,5,5,4,2,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
+[10,10,5,5,5,4,2,2,2,2,2,3,3,5,5,5,5,5,5,5,5,5,5,5,3,3,3,3],
 
 //sports cars        
 [10,10,10,10,10,10],
     
 //pickupshop1
-[2,2,2,2,2,2,3],
+[2,2,2,2,2,2,3,4,4],
 //pickupshop2
-[2,2,2,2,2,2,3],
+[2,2,2,2,2,2,3,4,4],
 
 //truckshop
-[3,3,3,3,3],
+[3,3,3,3,3,3],
 //truckshop1
-[3,3,3,3,3],
+[3,3,3,3,3,3],
 //truckshop2
-[3,3,3,3,3],
+[3,3,3,3,3,3],
 
 //terrorshop
-[-1,-1,-1,-1,5,-1,5,-1,8,-1,10,10,10,10,-1,-1,5,-1,3,-1,-1,-1,10,5,5,5,5,5,-1,-1,-1,-1,3],
+[-1,-1,-1,-1,2,-1,1,-1,1,-1,1,1,1,1,-1,-1,1,-1,1,-1,-1,-1,10,10,1,1,1,1,-1,-1,-1,-1,3],
 
 //boatshop1
 [8,8,8,8,8],
@@ -256,37 +256,37 @@ INV_itemmaxstocks =
 [10,10,8,6,4,4],
 
 //Carsshop1//
-[20,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,6,6,6,6],
+[20,20,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,6,6,6,6],
 //Carsshop2//
-[20,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,6,6,6,6],
+[20,20,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,6,6,6,6],
 //Carsshop3//
-[20,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,6,6,6,6],
+[20,20,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,6,6,6,6],
 //Carsshop4//
-[20,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,6,6,6,6],
+[20,20,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,6,6,6,6],
 //Carsshop5//
-[20,10,10],
+[20,20,10,10],
 //Carsshop6//
-[20,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,6,6,6,6],
+[20,20,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,6,6,6,6],
 //Carsshop7//
-[20,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,6,6,6,6],
+[20,20,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,6,6,6,6],
 
 //Sports Cars//
 [20,20,20,20,20,20],
 
 //PickupShop1//
-[5,5,10,10,10,10,10],
+[5,5,10,10,10,10,10,10,10],
 //PickupShop2//
-[5,5,10,10,10,10,10],
+[5,5,10,10,10,10,10,10,10],
 
 //TruckShop//
-[6,6,6,6,6],
+[6,6,6,6,6,6],
 //TruckShop1//
-[6,6,6,6,6],
+[6,6,6,6,6,6],
 //TruckShop2//
-[6,6,6,6,6],
+[6,6,6,6,6,6],
 
 //terrorshop//
-[-1,-1,-1,-1,5,-1,5,-1,8,-1,10,10,10,10,-1,-1,5,-1,3,-1,-1,-1,10,5,5,5,5,5,-1,-1,-1,-1,3],
+[-1,-1,-1,-1,8,-1,5,-1,9,-1,10,10,10,10,-1,-1,5,-1,3,-1,-1,-1,10,5,5,5,5,5,-1,-1,-1,-1,3],
 
 //BoatShop1//
 [16,16,16,16,16],
@@ -377,10 +377,10 @@ _is = ["fisch", "blowfish", "mackerel", "herring", "bass", "Bread", "chips", "bo
 _gs = ["M9", "Rnd_9x19_M9", "Colt1911", "Rnd_45ACP_1911", "Saiga12K", "Rnd_B_Saiga12_74Slug"];
 _es = ["lockpick", "Binocular", "NVGoggles", "GPS", "Stone", "medikit",  "handy", "lighter", "stoersender"];
 _cu = ["nitro", "supgrade1", "supgrade2", "supgrade3", "supgrade4", "supgrade5"];
-_cs = ["MMT_Civ","TT650_Civ","TT650_Ins","Tractor","oltruc3","Skoda","SkodaBlue","SkodaRed","SkodaGreen","civic","Lada_base","Lada1","Lada2","VWGolf","Ikarus","Civcar","Civcarbl","Civcarbu","Civcarge","Civcarre","Civcarsl","Civcarwh"]; 
+_cs = ["ATV_CZ_EP1","MMT_Civ","TT650_Civ","TT650_Ins","Tractor","oltruc3","Skoda","SkodaBlue","SkodaRed","SkodaGreen","civic","Lada_base","Lada1","Lada2","VWGolf","Ikarus","Civcar","Civcarbl","Civcarbu","Civcarge","Civcarre","Civcarsl","Civcarwh"]; 
 _sc = ["roadrunner2","challenger","barcuda","cuda","cd71hm","monaco"];
-_ps = ["datsun1_civil_1_open", "datsun1_civil_2_covered", "datsun1_civil_3_open", "hilux1_civil_1_open", "hilux1_civil_2_covered", "SUV_TK_CIV_EP1"];
-_ts = ["UralCivil", "UralCivil2", "V3S_Civ", "oldtruc2a", "oldtruc2"];
+_ps = ["datsun1_civil_1_open", "datsun1_civil_2_covered", "datsun1_civil_3_open", "hilux1_civil_1_open", "hilux1_civil_2_covered", "SUV_TK_CIV_EP1", "LandRover_TK_CIV_EP1", "LandRover_CZ_EP1"];
+_ts = ["UralCivil", "UralCivil2", "V3S_Civ", "oldtruc2a", "oldtruc2", "mackr"];
 _bs = ["PBX", "Zodiac", "Fishing_Boat", "Smallboat_1", "Smallboat_2"];
 _bt = ["PBX", "Zodiac", "Fishing_Boat"];
 _bc = ["PBX", "Zodiac", "RHIB"];
@@ -400,7 +400,7 @@ _ACl = ["beer","beer2","vodka","smirnoff","wiskey","wine","wine2"];
 _bm = ["Binocular", "GPS", "chips", "NVGoggles", "Colt1911", "PipeBomb", "Rnd_45ACP_1911", "SVD_CAMO", "10Rnd_762x54_SVD", "MP5A5", "30Rnd_9x19_MP5", "medikit", "kleinesreparaturkit", "reparaturkit", "vodka", "lockpick"];
 _Construction   = ["Sign_Danger", "Land_Wall_Gate_Ind1_L","Land_Wall_CBrk_5_D", "Fort_RazorWire", "RoadCone", "Land_Campfire", "Pile_of_wood", "Fence", "RoadBarrier_long"];
 _ca = ["Mi17_medevac_CDF", "MH60S"];
-_cv = ["MMT_USMC","M1030", "LadaLM", "hilux1_civil_3_open", "Kamaz", "HMMWV", "Copcar", "Copcarhw", "Copcarhw2", "Copcaraus", "Copcarausgreen"];
+_cv = ["MMT_USMC","M1030", "LadaLM", "hilux1_civil_3_open", "Kamaz", "HMMWV", "Copcar", "Copcarhw", "Copcarhw2", "Copcaraus", "Copcarausgreen", "rosco"];
 
 _copshop        = 
 

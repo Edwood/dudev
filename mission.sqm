@@ -91,17 +91,17 @@ class Mission
 	randomSeed=10513215;
 	class Intel
 	{
-		briefingName="Down Under Alpha V 1.09h";
+		briefingName="Down Under Alpha V 1.09j";
 		briefingDescription="By The DownUnder Community";
 		resistanceWest=0;
-		startWeather=0.59067023;
-		startFog=0.20448926;
-		forecastWeather=0.7692827;
+		startWeather=0.39067024;
+		startFog=0.10448926;
+		forecastWeather=0.36928269;
 		forecastFog=0.13131547;
 		year=2011;
 		month=8;
 		day=13;
-		hour=12;
+		hour=15;
 	};
 	class Groups
 	{
@@ -4509,7 +4509,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={17737.043,64.980003,12411.74};
+					position[]={7767.7285,181.89713,7504.6968};
 					azimut=172.451;
 					id=2739;
 					side="CIV";
@@ -5500,7 +5500,7 @@ class Mission
 		};
 		class Item74
 		{
-			position[]={17743.449,64.980003,12409.282};
+			position[]={7773.2036,181.8499,7505.0342};
 			azimut=180;
 			id=150;
 			side="EMPTY";
@@ -30490,7 +30490,7 @@ class Mission
 		};
 		class Item2516
 		{
-			position[]={17735.387,64.980003,12411.981};
+			position[]={7766.0723,181.91382,7504.938};
 			azimut=-88.206596;
 			id=2740;
 			side="EMPTY";

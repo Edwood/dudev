@@ -63,11 +63,14 @@ _vehiclefactory=
 [
 
 "MMT_Civ",
+"ATV_CZ_EP1",
 "TT650_Civ",
 "TT650_Ins",
 "Tractor",
 "Skoda",
 "SkodaBlue",
+"LandRover_TK_CIV_EP1",
+"LandRover_CZ_EP1"
 "SkodaRed",
 "SkodaGreen",
 "Lada_base",
@@ -84,8 +87,6 @@ _vehiclefactory=
 "Civcarre",
 "Civcarsl",
 "Civcarwh",
-"Smallboat_1",
-"Smallboat_2",
 "oltruc3",
 "hilux1_civil_1_open",
 "hilux1_civil_2_covered",
@@ -147,9 +148,9 @@ _itemfactory=
 ];
 
 _confac = [ "Sign_Danger", "Land_Wall_Gate_Ind1_L", "Land_Wall_CBrk_5_D", "Fort_RazorWire", "RoadCone", "Land_Campfire", "Pile_of_wood", "Fence", "RoadBarrier_long"];
-_airfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1"];
+_airfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1","qantas_C130"];
 _tairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1"];
-_nzairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1"];
+_nzairfactory = ["Mi17_Civilian","GNT_PiperWII","ArMaT_GliderUN","AH6X_EP1","An2_1_TK_CIV_EP1","An2_2_TK_CIV_EP1","MH6J_EP1","airnz_C130"];
 
 vehiclequeue  	= [];
 tvehiclequeue 	= [];
@@ -164,7 +165,7 @@ INV_ItemFabriken =
 
 [
 
-[Vehiclefactory,"factory1","Vehicle Factory",dummyobj,vfacspawn,_vehiclefactory,35000,"Fabrikablage1", "vehiclequeue"],
+[Vehiclefactory,"factory1","Vehicle Factory",dummyobj,vfacspawn,_vehiclefactory,50000,"Fabrikablage1", "vehiclequeue"],
 [airshop,"factory2","AirFactory",dummyobj,airspawn,_airfactory,100000,"Fabrikablage2", "avehiclequeue"],
 [ItemFabrik_1,"factory3","General Factory",igunbox,dummyobj,_itemfactory,50000,"Fabrikablage3", "itemqueue"],
 [terrorshop2,"factory4","Weapon Factory",tgunbox2,dummyobj,_weaponfactory,80000,"Fabrikablage4", "weaponqueue"],
