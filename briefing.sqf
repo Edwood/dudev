@@ -1,3 +1,7 @@
+/*
+ This is how you comment out a block
+ */
+ 
 //if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["rules","General Rules"];
