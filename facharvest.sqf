@@ -70,7 +70,7 @@ _vehiclefactory=
 "Skoda",
 "SkodaBlue",
 "LandRover_TK_CIV_EP1",
-"LandRover_CZ_EP1"
+"LandRover_CZ_EP1",
 "SkodaRed",
 "SkodaGreen",
 "Lada_base",
