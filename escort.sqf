@@ -61,8 +61,10 @@ while {true} do
 	for [{_i=0}, {_i < 60}, {_i=_i+1}] do
 
 		{	
-
-		if ( (not(alive _escortname)) or (not(alive player)))  exitWith {sleep 2; if(!isNull _escortname)then{player groupChat "One of your escorts are dead so some pimp you are"}else{player groupChat "An escort you owned has been set free! you are now wanted."}; localescort = localescort - 1; _escortname setDamage 1; _exitvar = 1;};					
+		//Advise player on death or capture of escort/s
+		if ( (not(alive _escortname)) exitWith {sleep 1; if(!isNull _escortname)then{player groupChat "One of your escorts are dead so some pimp you are"}else{player groupChat "An escort you owned has been set free! you are now wanted."}; localescort = localescort - 1; _escortname setDamage 1; _exitvar = 1;};					
+		//If the player dies, he looses one of his escorts.
+		if ( (not(alive player)))  exitWith {sleep 10; if(!isNull _escortname)then{player groupChat "One of your escorts got pregnant and ran away with a Crunchy Bar - some pimp you are!!"}; localescort = localescort - 1; _escortname setDamage 1; sleep 150; _exitvar = 1;};
 		
 		if ((player distance _escortname >= 5 or (call compile format ["arbeitergeld%1 == 0", _escortnumber])) and _a1 == 1) then {player removeAction _action; _a1 = 0;};																																													
 			
