@@ -15,8 +15,8 @@ workplacejob_deliverymsg         =
 ];			
 
 deliveryjobmulti                 = 4;  
-workplacejob_courier_maxmoney    = 30000; 
-deliverymintime			 = 100;			
+workplacejob_courier_maxmoney    = 50000; 
+deliverymintime			 = 900;			
 
 workplacejob_deliveryflagarray   = 
 
@@ -94,5 +94,5 @@ taximindistance			 = 2000;
 
 //========================================ASSASSINATION============================================																						 							 			
 
-workplacejob_assassin_break   = 15;
+workplacejob_assassin_break   = 10;
 workplacejob_assassion_failed = false;

@@ -34,7 +34,7 @@ Added:-Blue Security Dye explosion when robbing bank.<br/>
 Added:-PassPort to license and real estae menu u now need passport to cross border.<br/>
 Added:-Black Market see if u can find him. He will be hideing in building populated areas not in the bush.<br/>
 Added:-2 more boats to boats shop.<br/>
-Added:-A Black Market, Welcome Thanks to Weed, Dustoff and Whippy.<br/>
+Added:-A Black Market, Thanks to Weed, Dustoff and Whippy.<br/>
 Added:-Civ marker radio jammers at whippys equip.<br/>
 Fixed:-Bridge just after border that flips u.<br/>
 Fixed:-Pickup bug we hope.<br/>

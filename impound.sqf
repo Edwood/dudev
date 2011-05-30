@@ -17,9 +17,9 @@ _incarpark = false;
 if(_incarpark)exitwith{player groupchat "this vehicle is in a carpark. you cannot impound it!"};
 
 _vcl setpos [(getPos impoundarea1 select 0)-(random 20)+(random 20), (getPos impoundarea1 select 1)-(random 20)+(random 20), getPos impoundarea1 select 2];
-_geld = 1000;
+_geld = 2500;
 ['geld', _geld] call INV_AddInvItem;
-player groupChat "You got 1000$ for cleaning the streets.";
+player groupChat "You got 2500 for cleaning the streets.";
 player groupChat localize "STRS_inventar_impound_success";
 
 format['hint format[localize "STRS_inventar_impound_gesehen", %1, %2]', player, _vcl] call broadcast;
