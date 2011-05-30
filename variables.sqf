@@ -394,10 +394,10 @@ BuyAbleBuildingsArray    =
 
 ["wp1", "Workplace 1", workplace_getjobflag_1, 10000,  500, "wp", "WpAblage_1"],							
 ["wp2", "Workplace 2", workplace_getjobflag_2, 20000, 1000, "wp", "WpAblage_2"],							
-["wp3", "Workplace 3", workplace_getjobflag_3, 30000, 1500, "wp", "WpAblage_3"],
-["wp4", "Workplace 4", workplace_getjobflag_4, 40000, 2500, "wp", "WpAblage_4"],
-["wp5", "Workplace 5", workplace_getjobflag_5, 50000, 3500, "wp", "WpAblage_5"],
-["wp6", "Workplace 6", workplace_getjobflag_6, 60000, 4500, "wp", "WpAblage_6"]
+["wp3", "Workplace 3", workplace_getjobflag_3, 30000, 2500, "wp", "WpAblage_3"],
+["wp4", "Workplace 4", workplace_getjobflag_4, 10000, 500, "wp", "WpAblage_4"],
+["wp5", "Workplace 5", workplace_getjobflag_5, 20000, 1000, "wp", "WpAblage_5"],
+["wp6", "Workplace 6", workplace_getjobflag_6, 30000, 2500, "wp", "WpAblage_6"]
 
 ];
 

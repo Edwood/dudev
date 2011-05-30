@@ -79,7 +79,7 @@ enableSaving [false, false];
 enableSentences false;
 WEST setFriend [EAST, 1];
 EAST setFriend [WEST, 1];
-version        	= "1.09j";
+version        	= "1.09k";
 compatible     	= 102;
 internDebug    	= false;
 debug          	= false;
@@ -144,7 +144,7 @@ _h = []	execVM "initRadio.sqf";
 
 waitUntil{scriptDone  _h};
 
-//[SkipTimeDay, SkipTimeNight, 1] execVM "skiptime.sqf"; 
+[SkipTimeDay, SkipTimeNight, 1] execVM "skiptime.sqf"; 
 [] execVM "weather.sqf";
 setPitchBank = compile preprocessfile "setPitchBank.sqf";
 
