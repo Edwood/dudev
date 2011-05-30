@@ -1,4 +1,4 @@
-if(player diarySubjectExists "rules")exitwith{};
+//if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["rules","General Rules"];
 player createDiarySubject ["controls","Controls"];
