@@ -81,8 +81,8 @@ WEST setFriend [EAST, 1];
 EAST setFriend [WEST, 1];
 version        	= "1.09k";
 compatible     	= 102;
-internDebug    	= false;
-debug          	= false;
+internDebug    	= true;
+debug          	= true;
 addonversion   	= false;
 dedicatedServer = false;
 copscount      	= 10;
@@ -185,6 +185,7 @@ if (isServer) then
 {
 
 ["serverloop1"]	execVM "servermissionfile\commonloop.sqf";
+[] execVM "servermissionfile\weaponconvoy.sqf";
 [0, 0, 0, ["serverloop"]] execVM "mayor.sqf";
 [0, 0, 0, ["serverloop"]] execVM "chief.sqf";
 [0, 0, 0, ["serverloop"]] execVM "gangs.sqf";

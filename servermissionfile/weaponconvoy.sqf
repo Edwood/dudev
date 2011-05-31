@@ -4,18 +4,17 @@ while {true} do
 
 {	
 
-sleep (konvoyrespawnzeit*54);
-
-if(!alive HQ)exitwith{};
+sleep (konvoyrespawnzeit*4);
 
 "if (iscop) then {hint ""The supply truck will leave in a few minutes."";}" call broadcast;
 
 sleep (konvoyrespawnzeit*6);
 
-if(!alive HQ)exitwith{};
+
 
 _soldatvar = 0;	
 _counter   = 0;
+_sidewon = "Neither";
 konvoy_marker_active = 1;
 konvoyhascash=true; publicvariable "konvoyhascash";
 deleteVehicle konvoytruck;

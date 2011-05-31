@@ -66,7 +66,6 @@ while {true} do
 
 };
 
-if !alive "blackmar" then name=objnull;
 
 if(true)exitwith{};
 

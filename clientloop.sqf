@@ -124,7 +124,6 @@ while {true} do
 
 		};
 	
-	if !alive "blackmar" then name=objnull;
 
 	coparray = [cop1, cop2, cop3, cop4, cop5, cop6,	cop7,cop8,cop9,	cop10];			
 	civarray = [civ1, civ2, civ3, civ4, civ5, civ6, civ7,civ8,civ9, civ10,civ11,civ12,civ13,civ14,civ15,civ16,civ17,civ18,civ19,civ20];
