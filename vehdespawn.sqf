@@ -74,12 +74,12 @@ while {alive _vcl and !isnull _vcl} do
 
 	};
 
-//if(isnull _vcl)exitwith{};
+if(isnull _vcl)exitwith{};
 
-//if (!alive _vcl) then {sleep _deletewait;};
-//call compile format ["if (!(isNil ""%1"")) then {%1 = []; PublicVariable ""%1"";};", format["%1_storage", _vcl]];
-//_vcl setVehicleInit "";
-//call compile format["%1 = nil;", _vcl];	
-//deleteVehicle _vcl; 	
+if (!alive _vcl) then {sleep _deletewait;};
+call compile format ["if (!(isNil ""%1"")) then {%1 = []; PublicVariable ""%1"";};", format["%1_storage", _vcl]];
+_vcl setVehicleInit "";
+call compile format["%1 = nil;", _vcl];	
+deleteVehicle _vcl; 	
 
 };

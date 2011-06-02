@@ -79,10 +79,10 @@ enableSaving [false, false];
 enableSentences false;
 WEST setFriend [EAST, 1];
 EAST setFriend [WEST, 1];
-version        	= "1.09k";
+version        	= "1.09m";
 compatible     	= 102;
-internDebug    	= true;
-debug          	= true;
+internDebug    	= false;
+debug          	= false;
 addonversion   	= false;
 dedicatedServer = false;
 copscount      	= 10;
@@ -93,7 +93,6 @@ StartMoney     	= 25000;
 nopop	   	= true;	
 
 execVM "briefing.sqf";
-
 waituntil {!isnil "bis_fnc_init"};
 
 call compile preprocessfile "triggers.sqf";
@@ -158,6 +157,7 @@ if(!dedicatedserver) then
 [] execVM "itemactions.sqf";
 [] execVM "petrolactions.sqf";
 [] execVM "SpeedCams.sqf";
+//[] execVM "SpeedtCams.sqf";
 [] execVM "nametags.sqf";
 [] execVM "initplayer.sqf";
 //[] execVM "teargas.sqf";
@@ -166,6 +166,8 @@ if(!dedicatedserver) then
 [2] execVM "markers.sqf";
 [3] execVM "markers.sqf";
 [] execVM "salaries.sqf";
+//
+[] execVM "actions.sqf";
 [] execVM "actions.sqf";
 //[]execVM "updatehouse.sqf";
 
@@ -185,12 +187,11 @@ if (isServer) then
 {
 
 ["serverloop1"]	execVM "servermissionfile\commonloop.sqf";
-[] execVM "servermissionfile\weaponconvoy.sqf";
 [0, 0, 0, ["serverloop"]] execVM "mayor.sqf";
 [0, 0, 0, ["serverloop"]] execVM "chief.sqf";
 [0, 0, 0, ["serverloop"]] execVM "gangs.sqf";
 [] execVM "servermissionfile\druguse.sqf";
-[] execVM "servermissionfile\drugreplenish.sqf";
+[] execVM "governmentconvoy.sqf";
 [] execVM "servermissionfile\drugreplenish.sqf";
 //[]execVM "checkradio.sqf";
 [] execVM "servermissionfile\robpool.sqf";

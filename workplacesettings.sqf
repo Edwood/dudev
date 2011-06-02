@@ -15,7 +15,7 @@ workplacejob_deliverymsg         =
 ];			
 
 deliveryjobmulti                 = 4;  
-workplacejob_courier_maxmoney    = 50000; 
+workplacejob_courier_maxmoney    = 80000; 
 deliverymintime			 = 900;			
 
 workplacejob_deliveryflagarray   = 

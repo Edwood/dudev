@@ -36,7 +36,7 @@ ctactive		 = false;
 keyblock		 = false;
 maxboars		 = 30;
 maxrabbits		 = 30;
-maxmanitime		 = 3600;
+maxmanitime		 = 1200;
 powerrestorecost	 = 10000;
 impoundpay		 = 1000;
 noholster		 = false;
@@ -46,20 +46,20 @@ SQUADcost		 = 20000;
 maxinfai		 = 16;
 firestrikes		 = 3;
 totalstrikes		 = 3;
-facworkercost		 = 12000;
-maxfacworkers		 = 10;
+facworkercost		 = 10000;
+maxfacworkers		 = 12;
 firingcaptive		 = false;
 pickingup   		 = false;
-lockpickchance		 = 39;
+lockpickchance		 = 35;
 planting		 = false;
 dll_tow_debug 		 = false;
 //==============================PETROL/OIL=========================================
 TankenCost               = 150;
 petroluse                = 1;
 maxpetroluse             = 300; 
-oildemand                = 0.69;
+oildemand                = 0.89;
 oilsellpricedec          = 30;
-oilbaseprice		 = 10000;
+oilbaseprice		 = 25000;
 //==============================MINING/coal=============================================
 shoveldur=20;
 shovelmax=2;
@@ -71,16 +71,25 @@ working=false;
 coaldemand			= 0.50;
 coalbaseprice		= 7500;
 //===============================GANGS=============================================
-gangincome		 = 2000;
+gangincome		 = 4000;
 gangcreatecost		 = 50000;
 gangsarray		 = [];
 gangmember		 = false;
 gangleader		 = false;
 gangareas		 = [gangarea1,gangarea2,gangarea3,gangarea4,gangarea5,gangarea6];
+//===== Gas station robbing
+maxfuelmoney = 40000;
+wantedamountforrobbing = 30000;
+//=========government convoy=============
+govconvoybonus 		 = 100000;
+govconvoythiefbonus	 = 200000;
+convoyrespawntime        = 30;  //reset to 30 after testing
+moneyintruck 		 = true; //dont change
+
 //===============Cop Patrol==================
 pmissionactive = false;
 patrolwaittime = false;
-patrolmoneyperkm = 2.2;  // 1 would be equal to $3,000 for 1KM
+patrolmoneyperkm = 1;  // 1 would be equal to $3,000 for 1KM
 //=========== cop patrol array ==========
 coppatrolarray  =
 [
@@ -156,9 +165,9 @@ else
 {
 																				
 RadioTextMsg_1 = "Dont shoot! I surrender!";
-RadioTextMsg_2 = "Dont shoot! I surrender!";		
-RadioTextMsg_3 = "Dont shoot! I surrender!";						
-RadioTextMsg_4 = "Dont shoot! I surrender!";
+RadioTextMsg_2 = "Go away i dont want what u are selling!";		
+RadioTextMsg_3 = "Dont shoot! so i can shoot u!";						
+RadioTextMsg_4 = "Bring it on!";
 
 };
 			
@@ -336,8 +345,8 @@ shopactivescript 	= 0;
 atmscriptrunning 	= 0;						
 deadcam_wechsel_dauer    = 5;													
 deadcam_kameraposition   = round(random (count deadcam_position_array - 1));	
-slave_cost               = 30000;
-slavemoneyprosekunde	 = 3000;
+slave_cost               = 20000;
+slavemoneyprosekunde	 = 5000;
 maxslave                 = 3;
 copslaveallowed          = 0;
 localslave               = 0;
@@ -364,7 +373,7 @@ marker_CopDistance       = 75;   //controls distance cops need to be to make civ
 CivMarkerUngenau         = 20;     								
 copmarker_on             = 1; 
 despawnarray	 	 = [["EvMoney", 300], ["Suitcase", 300]];
-workplacearray           = [[workplace1, 80], [workplace2, 80], [workplace3, 60]];
+workplacearray           = [[workplace1, 80], [workplace2, 80], [workplace3, 60], [workplace4, 60], [workplace5, 60], [workplace6, 60]];
 escortarray               = [[redlightdistrict1, 80], [redlightdistrict2, 80], [redlightdistrict3, 80]];
 huntingarray             = [["boarhunting", 300]];
 nonlethalweapons	 = ["Binocular", "NVGoggles", "ItemMap", "ItemCompass", "ItemRadio", "ItemWatch", "ItemGPS"];
@@ -373,7 +382,7 @@ timeinworkplace          = 0;
 wpcapacity               = 10;
 INV_hasitemshop          = 0;
 INV_haswepshop           = 0;
-gunlicensetargets	 = [t11,t12,t21,t22,t31,t32,t41,t42,t51,t52,t61,t62,t71,t72,t81,t82,t91,t92,t101,t111,t112,t121,t131,t132,t133,t134,t135];
+gunlicensetargets	 = [];
 BuildingsOwnerArray 	 = [];
 
 //============================HOUSEARRAYS==========================================
