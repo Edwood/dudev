@@ -61,7 +61,7 @@ while {true} do
 	for [{_i=0}, {_i < 60}, {_i=_i+1}] do
 
 		{	
-
+		//Advise player on death or capture of escort/s
 		if ( (not(alive player)))  exitWith {sleep 2; if(!isNull _escortname)then{player groupChat "One of your escorts fell pregnant and ran away with a surfer"} localescort = localescort - 1; _escortname setDamage 1; sleep 150; _exitvar = 1;};	
 		
 		if ( (not(alive _escortname)) )  exitWith {sleep 2; if(!isNull _escortname)then{player groupChat "One of your escorts are dead so some pimp you are"}else{player groupChat "An escort you owned has been set free! you are now wanted."}; localescort = localescort - 1; _escortname setDamage 1; _exitvar = 1;};		
