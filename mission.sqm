@@ -87,7 +87,6 @@ class Mission
 		"as_eu_oa_military",
 		"caweapons_baf",
 		"castructures_e_ind_oil_mine",
-		"roadrunner2",
 		"du_sara"
 	};
 	randomSeed=10513215;
@@ -107,7 +106,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=239;
+		items=238;
 		class Item0
 		{
 			side="LOGIC";
@@ -4803,24 +4802,6 @@ class Mission
 				};
 			};
 		};
-		class Item238
-		{
-			side="WEST";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={13476.23,5.1013007,6767.9434};
-					azimut=-65.893799;
-					id=2572;
-					side="WEST";
-					vehicle="USMC_Soldier_AA";
-					leader=1;
-					skill=0.60000002;
-				};
-			};
-		};
 	};
 	class Vehicles
 	{
@@ -6184,7 +6165,7 @@ class Mission
 		};
 		class Item134
 		{
-			position[]={16186.088,57.433601,13765.574};
+			position[]={16185.83,57.422321,13765.388};
 			azimut=-1077.9341;
 			id=257;
 			side="EMPTY";
@@ -28580,11 +28561,11 @@ class Mission
 		};
 		class Item2328
 		{
-			position[]={11655.203,28.240618,5862.5908};
+			position[]={11654.626,28.217844,5862.3027};
 			azimut=-105.542;
 			id=2565;
 			side="EMPTY";
-			vehicle="roadrunner2";
+			vehicle="datsun1_civil_3_open";
 			leader=1;
 			lock="UNLOCKED";
 			skill=0.60000002;
@@ -29495,14 +29476,14 @@ class Mission
 		};
 		class Item92
 		{
-			position[]={10223.855,60.177898,6448.7612};
-			name="fuel3";
+			position[]={10223.245,60.167675,6448.8076};
+			name="station3";
 			text="DU Servo";
 			type="mil_box";
 			colorName="ColorBlack";
 			a=0.69999999;
 			b=0.69999999;
-			angle=6.8425994;
+			angle=6.8425999;
 		};
 		class Item93
 		{
@@ -29783,14 +29764,14 @@ class Mission
 		};
 		class Item122
 		{
-			position[]={12580.431,42.979427,7763.52};
-			name="fuel2";
+			position[]={12580.361,42.993084,7763.8701};
+			name="station2";
 			text="Outback Servo";
 			type="mil_box";
 			colorName="ColorBlack";
 			a=0.69999999;
 			b=0.69999999;
-			angle=-70.475677;
+			angle=-70.4757;
 		};
 		class Item123
 		{
@@ -29806,7 +29787,7 @@ class Mission
 		class Item124
 		{
 			position[]={16169.041,56.520126,13761.874};
-			name="fuel4";
+			name="station4";
 			text="Dusty Fuel Servo";
 			type="mil_box";
 			colorName="ColorBlack";
@@ -30045,13 +30026,13 @@ class Mission
 		class Item151
 		{
 			position[]={14141.945,35.48251,10075.535};
-			name="fuel1";
+			name="station1";
 			text="NZ Servo";
 			type="mil_box";
 			colorName="ColorBlack";
 			a=0.69999999;
 			b=0.69999999;
-			angle=-243.83073;
+			angle=-243.83099;
 		};
 		class Item152
 		{

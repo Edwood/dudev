@@ -78,18 +78,18 @@ gangmember		 = false;
 gangleader		 = false;
 gangareas		 = [gangarea1,gangarea2,gangarea3,gangarea4,gangarea5,gangarea6];
 //===== Gas station robbing
-maxfuelmoney = 40000;
+maxstationmoney = 40000;
 wantedamountforrobbing = 30000;
 //=========government convoy=============
-govconvoybonus 		 = 100000;
-govconvoythiefbonus	 = 200000;
+govconvoybonus 		 = 75000;
+govconvoythiefbonus	 = 150000;
 convoyrespawntime        = 30;  //reset to 30 after testing
 moneyintruck 		 = true; //dont change
 
 //===============Cop Patrol==================
 pmissionactive = false;
 patrolwaittime = false;
-patrolmoneyperkm = 1;  // 1 would be equal to $3,000 for 1KM
+patrolmoneyperkm = 3;  // 1 would be equal to $3,000 for 1KM
 //=========== cop patrol array ==========
 coppatrolarray  =
 [

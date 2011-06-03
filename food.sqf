@@ -160,6 +160,7 @@ if (_art == "use") then
 
 _item   = _this select 1;
 _anzahl = _this select 2;
+_maxanzahl =   _item call INV_getitemamount;
 _hungerStillen = 0;
 
 switch _item do 

@@ -146,6 +146,7 @@ waitUntil{scriptDone  _h};
 [SkipTimeDay, SkipTimeNight, 1] execVM "skiptime.sqf"; 
 [] execVM "weather.sqf";
 setPitchBank = compile preprocessfile "setPitchBank.sqf";
+ 
 
 if(!dedicatedserver) then
 
@@ -166,8 +167,7 @@ if(!dedicatedserver) then
 [2] execVM "markers.sqf";
 [3] execVM "markers.sqf";
 [] execVM "salaries.sqf";
-//
-[] execVM "actions.sqf";
+[] execVM "governmentconvoy.sqf";
 [] execVM "actions.sqf";
 //[]execVM "updatehouse.sqf";
 
@@ -191,12 +191,25 @@ if (isServer) then
 [0, 0, 0, ["serverloop"]] execVM "chief.sqf";
 [0, 0, 0, ["serverloop"]] execVM "gangs.sqf";
 [] execVM "servermissionfile\druguse.sqf";
-[] execVM "governmentconvoy.sqf";
 [] execVM "servermissionfile\drugreplenish.sqf";
 //[]execVM "checkradio.sqf";
 [] execVM "servermissionfile\robpool.sqf";
 [] execVM "servermissionfile\hunting.sqf";
 //[] execVM "setObjectPitches.sqf";
+
+//=======================rob gas station init and variables================
+[] execVM "stationrobloop.sqf";
+station1money = 5000;
+publicvariable "station1money";
+
+station2money = 5000;
+publicvariable "station2money";
+
+station3money = 5000;
+publicvariable "station3money";
+
+station4money = 5000;
+publicvariable "station4money";
 
 
 for [{_i=0}, {_i < (count INV_ItemShops)}, {_i=_i+1}] do {((INV_ItemShops select _i) select 0) execVM "nomove.sqf"; sleep 0.2;};
