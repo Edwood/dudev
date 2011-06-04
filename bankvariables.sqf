@@ -1,4 +1,4 @@
-if(debug)then{['geld', 2500000] call INV_addinventoryitem};
+if(debug)then{['geld', 1000000] call INV_addinventoryitem};
 
 StartGeld                = 25000; 
 maxcopbonus		 = 50000;
