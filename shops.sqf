@@ -126,7 +126,7 @@ INV_itemstocks =
 //oilsell
 -1,
 //whalesell
--1,
+-1,-1,
 //Gang Area 1
 -1,
 //Gang Area 2
@@ -154,9 +154,9 @@ INV_itemstocks =
 [0],	
 
 //drugsell1
--1,
+-1,-1,-1,
 //drugsell2
--1,
+-1,-1,-1,-1,-1,
 //drugsell3
 -1,
 
@@ -311,7 +311,7 @@ INV_itemmaxstocks =
 //OilSell//
 -1,
 //whalesell//
--1,
+-1,-1,
 //Gang1//
 -1,
 //Gang2//
@@ -339,9 +339,9 @@ INV_itemmaxstocks =
 [12],
 
 //DrugSell1//
--1,
+-1,-1,-1,
 //DrugSell2//
--1,
+-1,-1,-1,-1,-1,
 //DrugSell3//
 -1,
 
@@ -387,13 +387,13 @@ _bc = ["RHIB"];
 _td = ["strangemeat", "medikit"];
 _ms = ["Shovel","Pickaxe","JackHammer"];
 _os = ["OilBarrel"];
-_ws = ["whale"];
+_ws = ["Whale"];
 _db = ["MarijuanaSeed","HeroinSeed","CocaineSeed"];
 _db1 = ["marijuana","cocaine","lsd"];
 _db2 = ["cocaine","lsd"];
 _db3 = ["heroin"];
-_dsc = ["cocaine", "lsd"];
-_dsm = ["marijuana", "heroin", "MarijuanaSeed", "HeroinSeed"];
+_dsc = ["cocaine", "lsd", "DirtyMoney"];
+_dsm = ["marijuana", "heroin", "MarijuanaSeed", "HeroinSeed", "DirtyMoney"];
 _dsl = ["lsd"];
 _dsh = ["heroin"];
 _ACl = ["beer","beer2","vodka","smirnoff","wiskey","wine","wine2"];

@@ -167,11 +167,13 @@ if(stolencash > 0)then
 
 	(format ["server globalchat ""%1 was a bank robber and has been charged $%2!"";", name player, (_INVrmv + _BNKrmv)]) call broadcast;	
 	
-	//remove the blue dye/s from the bank robber a minute after he is jailed (in case he wants to see the evidence for himself)
-	sleep 60;
+	//remove the Blue Dye and any Dirty Money from the bank robber 30 seconds after he is jailed (in case he wants to see the evidence for himself)
+	sleep 30;
 	CountBlueDyes = "BlueDye" call INV_GetItemAmount;
-	['BlueDye', (CountBlueDyes * -1)] call INV_addinventoryitem;
-
+	['BlueDye', -(CountBlueDyes)] call INV_addinventoryitem;
+	CountDirtyMoney = "DirtyMoney" call INV_GetItemAmount;
+	['DirtyMoney', -(CountDirtyMoney)] call INV_addinventoryitem;
+	
 	};
 
 stolencash = 0;

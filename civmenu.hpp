@@ -6,12 +6,12 @@ idd = -1;
 movingEnable = true;
 controlsBackground[] = {DLG_BACK1, background};
 objects[] = { };
-controls[] = {button_disarm, button_drugs, arrest_text, arrest_slider, button_arrest, button_restrain, ticket_eingabe, button_ticket, cancel, button_heal, button_inventarsearch, dummybutton};
+controls[] = {button_disarm, button_frisk, arrest_text, arrest_slider, button_arrest, button_restrain, ticket_eingabe, button_ticket, cancel, button_heal, button_inventarsearch, dummybutton};
 
 class DLG_BACK1: RscBackground                   {x = 0.40; y = 0.25;w = 0.22; h = 0.58;};
 class background : RscBgRahmen                   {x = 0.40; y = 0.25;w = 0.22; h = 0.58;text = $STRD_description_civmenu_header;};
 class button_disarm : RscButton          {idc = 1;x = 0.41; y = 0.28;w = 0.20; h = 0.04;text = $STRD_description_civmenu_disarm;   action = "[2] execVM ""civmenuinit.sqf""; closedialog 0";};
-class button_drugs : RscButton           {idc = 2;x = 0.41; y = 0.33;w = 0.20; h = 0.04;text = $STRD_description_civmenu_drugs;    action = "[1] execVM ""civmenuinit.sqf""; closedialog 0";};
+class button_frisk : RscButton           {idc = 2;x = 0.41; y = 0.33;w = 0.20; h = 0.04;text = $STRD_description_civmenu_frisk;    action = "[1] execVM ""civmenuinit.sqf""; closedialog 0";};
 class arrest_text : RscText              {idc = 4;x = 0.41; y = 0.38;w = 0.20; h = 0.04;style = ST_CENTER;text = $STRD_description_civmenu_arrest;};
 class arrest_slider : RscSliderH         {idc = 3;x = 0.41; y = 0.43;w = 0.20; h = 0.03;};
 class button_arrest : RscButton          {idc = 5;x = 0.41; y = 0.48;w = 0.20; h = 0.04;text = $STRD_description_civmenu_arrest;   action = "[3, sliderPosition 3] execVM ""civmenuinit.sqf""; closedialog 0";};

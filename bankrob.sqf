@@ -25,21 +25,24 @@ waituntil {animationstate player != "AinvPknlMstpSlayWrflDnon_medic"};
 if (alive player) then 
 
 	{
-	//Explode blue security dye onto player (into Inventory)
+	//Explode blue security dye onto player and money (into Inventory)
 	['BlueDye', 1] call INV_addinventoryitem;
 	player groupChat format[localize "STRS_BlueDye_Explosion"];
 	
-	['geld', local_cash] call INV_AddInventoryItem;
-	player groupChat format[localize "STRS_bank_rob_success"];
+	//Player gets dirty money
+	['DirtyMoney', local_cash] call INV_AddInventoryItem;
 	[local_cash] spawn Bank_Rob_End_Script;
-		
+	
+	//Wait a few seconds to avoid wall of text, and tell player about the tainted money
+	sleep 10;
+	player groupChat format[localize "STRS_BlueDye_MoneyTaint"];	
 	};
 
 stolencash = stolencash + local_cash;
 
 local_useBankPossible = false;
 robenable = true;
-rblock = rblock + ((local_cash/10000)*60);
+rblock = rblock + ((local_cash/15000)*60);  //Lock the safe for one minute per 15k stolen
 _rblock = rblock;
 
 sleep 2;
@@ -52,7 +55,7 @@ local_useBankPossible = true;
 stolencash = 0;
 rblock	   = 0;
 
-//remove the blue dye/s from the bank robber after the timer has expired
+//remove the Blue Dye/s from the bank robber after the timer has expired
 CountBlueDyes = "BlueDye" call INV_GetItemAmount;
 ['BlueDye', (CountBlueDyes * -1)] call INV_addinventoryitem;
 
